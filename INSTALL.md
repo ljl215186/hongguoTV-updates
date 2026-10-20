@@ -22,7 +22,7 @@
 
 例如，海信官方支持页分别说明了 Google TV 与 VIDAA 的菜单，不能把一种系统的步骤套用另一种；三星、LG 也使用各自的电视应用平台。参考：[海信系统区分](https://www.hisense.com.br/suporte)、[三星 Tizen 应用说明](https://www.samsung.com/sg/support/tv-audio-video/how-to-install-and-uninstall-apps-on-your-samsung-tv/)、[LG webOS 应用说明](https://www.lg.com/us/support/help-library/lg-tv-how-to-install-or-delete-apps--20153192472469)、[VIDAA 开发指南](https://www.vidaa.com/wp-content/uploads/2020/12/WebApp_Development_Guide_for_VIDAA.pdf)、[Titan OS 应用平台](https://www.titanos.tv/apps)。
 
-**验证范围：** 本项目已在 Android 9 指定测试设备验证安装、播放及更新；本文不把厂商通用安装说明当作本 App 的逐品牌认证。反馈兼容问题时，请提供型号、Android 版本、App 版本及出错画面。
+**验证范围：** 0.9.23 已在 Android 9 / x86_64 指定测试环境验证首次安装、播放、遥控器交互与版本检查，并检查 1080p、720p 和大字体；不将版本检查等同于完成跨版本覆盖安装，也不把厂商通用说明当作本 App 的逐品牌认证。反馈兼容问题时，请提供型号、Android 版本、App 版本及出错画面。
 
 <a id="usb-install"></a>
 ## U 盘安装：通用六步图解
@@ -33,7 +33,7 @@
 
 在电脑打开 **[红果 TV 下载页](https://tv-admin.curatedlifefinds.com/download)**，下载正式版。GitHub 用户也可进入 [Releases](https://github.com/ljl215186/hongguoTV-updates/releases/latest)，展开 **Assets / 资源**，点击带版本号的 `.apk` 附件。
 
-- 正确示例：`hongguotv-0.9.22-release.apk`，安装新版时以下载页版本为准。
+- 正确示例：`hongguotv-0.9.23-release.apk`，安装新版时以下载页版本为准。
 - `Source code (zip)`、`Source code (tar.gz)` 是 GitHub 自动生成的仓库压缩包，不能用于电视安装。
 - APK 不需要解压，不需要改后缀，也不需要先安装另一个“红果”应用。
 
@@ -214,7 +214,7 @@ TCL 官方海外 Google TV 教程分为两种情况，国内 TCL / 雷鸟系统�
 
 ![红果 TV 实际应用内更新界面，支持检查新版及自动下载设置](screenshots/updates.png)
 
-同包名、同正式签名的新版可覆盖升级并保留记录。当前包名为 `com.ljl215186.hongguotv`；不同包名的旧版可先在 **设置 → 手机备份与恢复** 导出 JSON，在新版导入并核对收藏、历史和设置。确认恢复前保留旧应用，不要先卸载。
+当前包名为 `com.hongguo.tv`，首次下载直接安装即可。后续同包名、同正式签名的新版可覆盖升级并保留记录；换设备前可在 **设置 → 手机备份与恢复** 导出 JSON，再在另一台设备导入并核对。
 
 <a id="troubleshooting"></a>
 ## 安装失败与常见问题
@@ -226,7 +226,7 @@ TCL 官方海外 Google TV 教程分为两种情况，国内 TCL / 雷鸟系统�
 | 提示不允许安装未知应用 | 为当前打开 APK 的文件工具授权，再返回重试；后续应用内更新则按提示授权红果 TV。 |
 | 提示安装包解析失败 | 核对 Android 8.0+，重新下载完整的 `.apk`；不要用 Source code 压缩包或网页文件。 |
 | 提示“应用未安装”或签名冲突 | 核对是否已有同包名的其他签名测试版，先备份记录；不要直接卸载正在使用的版本。 |
-| Android 9 旧测试版误报更新签名 | 0.9.19 及更早版可改由文件管理器安装 0.9.21 或更新正式版；同包名同签名时覆盖安装。 |
+| 提示包名或签名不一致 | 核对是否为当前正式包 `com.hongguo.tv`；首次下载直接安装，后续覆盖升级须保持包名和签名一致。 |
 | 只显示商店应用，禁止本地安装 | 向厂商确认该固件支持的方法；本教程不要求关闭应用校验、输入工厂暗码或恢复出厂设置。 |
 | 安装成功但找不到图标 | 从系统应用列表或设置的已安装应用中查找“红果 TV”，核对刚才安装是否成功。 |
 | 无法播放或出现缓冲 | 先检查网络、换剧、降低清晰度；安装成功不代表每个内容源都稳定。 |
