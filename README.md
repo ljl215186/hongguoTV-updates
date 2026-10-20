@@ -10,7 +10,9 @@
 
 Android 8.0+ · 当前正式版 0.9.22 · 遥控器操作 · 真人剧 / 漫剧 · 自动连播
 
-**安装导航：** [支持的电视品牌](#支持哪些电视品牌和电视盒子) · [U 盘安装图解](INSTALL.md#usb-install) · [按品牌查看安装教程](INSTALL.md#brand-guides) · [安装失败排查](INSTALL.md#troubleshooting)
+**安装导航：** [支持的电视品牌](#支持哪些电视品牌和电视盒子) · [U 盘安装图解](INSTALL.md#usb-install) · [手机 / 电脑无线安装](WIRELESS-INSTALL.md) · [按品牌查看安装教程](INSTALL.md#brand-guides) · [安装失败排查](INSTALL.md#troubleshooting)
+
+本项目仅供个人研究、学习与技术交流，为非官方客户端；第三方作品和标识归相应权利人所有。请在合法授权范围内使用，“仅供学习研究”不表示取得内容授权。详见 [免责声明](DISCLAIMER.md)。
 
 ![红果 TV 免费电视版：排行榜海报、四个顶部栏目与独立搜索入口](screenshots/discovery.png)
 
@@ -100,6 +102,8 @@ Android 8.0+ · 当前正式版 0.9.22 · 遥控器操作 · 真人剧 / 漫剧 
 ![红果 TV 电视 APK 安装图解：下载、复制到 U 盘、选择安装包、授权、安装及启动](screenshots/install-usb-steps.png)
 
 上图为操作示意，不是各品牌系统实拍。详细步骤与官方说明见 **[安卓电视安装图文教程](INSTALL.md)**。
+
+**没有 U 盘也能安装：** 电视自带传文件、品牌手机助手、当贝远程安装、Send Files to TV、电视直接下载等方法，见 [无线安装图文教程](WIRELESS-INSTALL.md)。iPhone 用户可优先查看 [浏览器上传方案](WIRELESS-INSTALL.md#iphone)；普通镜像 / 视频投屏不等于传 APK 安装。
 
 1. 打开 **[红果 TV 下载页](https://tv-admin.curatedlifefinds.com/download)**，下载带版本号的正式 APK；也可从 [GitHub Releases](https://github.com/ljl215186/hongguoTV-updates/releases/latest) 下载。
 2. 将 APK 放入 U 盘根目录，插入电视 / 盒子 USB 接口；没有 USB 接口时，可使用设备支持的局域网文件传输工具。

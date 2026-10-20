@@ -2,7 +2,7 @@
 
 **免费下载安装，无需登录，无需 App 会员。** 本页帮助你先确认电视是否兼容，再通过 U 盘或设备支持的文件传输方式安装红果 TV。
 
-[免费下载正式 APK](https://tv-admin.curatedlifefinds.com/download) · [GitHub 备用下载](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [返回功能介绍与界面截图](README.md)
+[免费下载正式 APK](https://tv-admin.curatedlifefinds.com/download) · [GitHub 备用下载](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [无线安装图文教程](WIRELESS-INSTALL.md) · [返回功能介绍与界面截图](README.md)
 
 说明核对日期：**2026-10-20**。教程根据厂商公开说明整理；系统菜单会随型号、地区和固件变化。三张配图为本项目制作的**操作示意图，不是各品牌系统截图**；厂商原图与完整步骤可打开对应官方链接查看。
 
@@ -192,11 +192,20 @@ TCL 官方海外 Google TV 教程分为两种情况，国内 TCL / 雷鸟系统�
 <a id="without-usb"></a>
 ## 没有 U 盘或 USB 接口怎么办
 
-- **设备自带局域网传文件：** 电脑 / 手机与电视连接同一局域网，使用电视提供的接收功能发送正式 APK，再通过文件工具安装。
-- **设备已有浏览器或下载工具：** 打开本项目 [下载页](https://tv-admin.curatedlifefinds.com/download)，下载后按系统提示为该来源授权并安装。
-- **Google TV / Android TV：** 如需另装文件管理器或传输工具，从系统支持的应用商店获取；商店可能要求系统账号，这是工具或商店的要求，红果 TV 本身无需登录。
+已补充完整的 **[手机 / 电脑无线安装图文教程](WIRELESS-INSTALL.md)**，按现有设备和功能选方法：
 
-以上方法取决于设备实际提供的功能。红果 TV 没有要求你先在品牌应用商店搜索同名 App；本项目安装包来自上方下载页及公开 Release。
+| 方式 | 教程 |
+|---|---|
+| 电视自带文件传输、文件投屏、浏览器上传 | [接收页与 APK 上传](WIRELESS-INSTALL.md#builtin-transfer) |
+| 小米电视助手、华为 / 荣耀分享、极米 App | [品牌官方助手](WIRELESS-INSTALL.md#brand-apps) |
+| 当贝市场、电视应用管家、已有当贝桌面 | [远程推送与文件快传](WIRELESS-INSTALL.md#dangbei) |
+| Android 手机发到 Android TV | [Send Files to TV](WIRELESS-INSTALL.md#sfttv) |
+| 电视浏览器、Downloader 直接下载 | [直接下载 APK](WIRELESS-INSTALL.md#direct-download) |
+| iPhone、电脑或已有局域网文件工具 | [iPhone 选择方法](WIRELESS-INSTALL.md#iphone)、[LocalSend 备选](WIRELESS-INSTALL.md#localsend)、[X-plore / SMB](WIRELESS-INSTALL.md#file-manager) |
+
+![手机与电脑无线安装方式选择示意图](screenshots/install-wireless-options.png)
+
+普通屏幕镜像、照片或视频投屏不等于 APK 安装；需要明确支持传文件 / 安装包的功能。第三方工具需先在电视可用，传输完成后还要由系统确认安装。商店或工具可能要求自己的账号，红果 TV 本身无需登录。
 
 <a id="updates"></a>
 ## 安装后如何更新、如何保留记录
@@ -228,6 +237,6 @@ TCL 官方海外 Google TV 教程分为两种情况，国内 TCL / 雷鸟系统�
 
 厂商官方资料已链接在对应步骤旁。TCL 的两篇安装说明及荣耀、华为的应用管理页包含厂商原始图文；外语页面可使用浏览器翻译。对缺少当前统一官方教程的品牌，本页明确使用条件式流程，不伪造机型实拍或宣称全系认证。
 
-三张原创示意图设计源文件：[Figma · 红果 TV 电视安装图解](https://www.figma.com/design/I9JyZD6L7p9KpesD1uFpES)。图解与本仓库界面截图随文档保存，不依赖第三方图片外链。
+U 盘与无线安装原创示意图设计源文件：[Figma · 红果 TV 电视安装图解](https://www.figma.com/design/I9JyZD6L7p9KpesD1uFpES)。图解与本仓库界面截图随文档保存，不依赖第三方图片外链。安装和使用前请阅读 [研究学习用途与版权免责声明](DISCLAIMER.md)。
 
 **[下载免费红果 TV](https://tv-admin.curatedlifefinds.com/download)** · [查看全部应用截图](README.md#界面实拍从找剧到播放) · [反馈安装问题](https://github.com/ljl215186/hongguoTV-updates/issues)
