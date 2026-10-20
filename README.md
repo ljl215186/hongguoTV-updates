@@ -8,6 +8,8 @@
 
 Android 8.0+ · 当前正式版 0.9.21 · 遥控器操作 · 真人剧 / 漫剧 · 自动连播
 
+**安装导航：** [支持的电视品牌](#支持哪些电视品牌和电视盒子) · [U 盘安装图解](INSTALL.md#usb-install) · [按品牌查看安装教程](INSTALL.md#brand-guides) · [安装失败排查](INSTALL.md#troubleshooting)
+
 ![红果 TV 免费电视版：排行榜海报、四个顶部栏目与独立搜索入口](screenshots/discovery.png)
 
 ## 免费、免登录、免会员，打开就能追剧
@@ -71,14 +73,38 @@ Android 8.0+ · 当前正式版 0.9.21 · 遥控器操作 · 真人剧 / 漫剧 
 
 流畅度会受电视性能、家庭网络和内容源状态影响。若遇到缓冲，可降低清晰度、检查 Wi-Fi 或重试播放。
 
+## 支持哪些电视品牌和电视盒子
+
+适用于 **Android 8.0（API 26）及以上、允许安装本地 APK** 的电视和电视盒子。可按下表查找小米、海信、TCL、创维等品牌的安装方法；品牌名称不等于全系兼容，具体还取决于型号、地区、系统版本与安装权限。
+
+| 电视品牌 / 设备 | 适用范围与安装教程 |
+|---|---|
+| **小米 / Redmi 电视、小米盒子** | 符合系统要求的机型，可通过电视管家或高清播放器安装。[查看教程](INSTALL.md#xiaomi) |
+| **海信 / Vidda** | 仅适用于符合要求且允许 APK 安装的 Android 机型；VIDAA / Roku 系统不适用。[查看教程](INSTALL.md#hisense) |
+| **TCL / 雷鸟** | Android / Google TV 或兼容 Android APK 的机型；TCL 海外说明不能直接套用全部国内固件。[查看教程](INSTALL.md#tcl) |
+| **创维 / 酷开** | 需确认 Android 版本及本地安装权限；部分固件限制第三方安装。[查看教程](INSTALL.md#skyworth) |
+| **长虹 / CHiQ** | 符合要求的 Android 机型，按本机文件工具与安装器操作。[查看教程](INSTALL.md#changhong) |
+| **康佳** | 符合要求且开放本地 APK 安装的 Android 机型。[查看教程](INSTALL.md#konka) |
+| **海尔 / 卡萨帝** | 需核对具体型号的系统版本、USB 文件浏览和安装权限。[查看教程](INSTALL.md#haier) |
+| **索尼 BRAVIA** | Android TV / Google TV 机型；非 Android 老机型不适用。[查看教程](INSTALL.md#sony) |
+| **飞利浦 / 夏普** | 仅适用于符合要求的 Android TV / Google TV 机型。[查看教程](INSTALL.md#philips-sharp) |
+| **荣耀智慧屏 / 华为智慧屏** | 部分型号提供第三方安装入口，但本 App 兼容性仍需核验，暂不列为已验证支持。[查看说明](INSTALL.md#smart-screen) |
+| **其他 Android 电视盒子 / 投影仪** | 符合 Android 8.0+、APK 安装及遥控器要求时可尝试。[查看教程](INSTALL.md#android-box) |
+
+上述为**安装条件与教程索引，不是逐品牌实机认证名单**。目前完成 Android 9 指定测试设备验证，尚未完成这些品牌全部机型的实机验收。三星 Tizen、LG webOS、VIDAA、Roku、Titan OS 等非 Android 系统不能直接运行本 APK，可在外接兼容 Android 盒子上安装。系统差异与厂商来源见 [完整安装指南](INSTALL.md#compatibility)。
+
 ## 免费下载与安装 Android TV APK
 
+![红果 TV 电视 APK 安装图解：下载、复制到 U 盘、选择安装包、授权、安装及启动](screenshots/install-usb-steps.png)
+
+上图为操作示意，不是各品牌系统实拍。详细步骤与官方说明见 **[安卓电视安装图文教程](INSTALL.md)**。
+
 1. 打开 **[红果 TV 下载页](https://tv-admin.curatedlifefinds.com/download)**，下载带版本号的正式 APK；也可从 [GitHub Releases](https://github.com/ljl215186/hongguoTV-updates/releases/latest) 下载。
-2. 通过 U 盘、局域网传输或电视自带的文件工具，将 APK 传入电视 / 盒子。
-3. 在系统安装器确认安装；首次安装可能需要允许对应工具安装未知来源应用。
+2. 将 APK 放入 U 盘根目录，插入电视 / 盒子 USB 接口；没有 USB 接口时，可使用设备支持的局域网文件传输工具。
+3. 使用支持 APK 的文件工具打开安装包，在系统安装器确认安装；首次安装按提示允许**当前文件工具**安装未知来源应用。
 4. 打开红果 TV，无需登录或购买会员，进入推荐或找剧即可开始观看。
 
-最低 Android 8.0，适用于允许运行 Android APK 的电视和电视盒子。其他系统是否兼容，请以设备实际支持为准。
+文件名示例：`hongguotv-0.9.21-release.apk`。下载 Release 的 APK 附件，不下载 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解压。安装后可在 **设置 → 版本与更新** 获取新版。
 
 ## 常见问题
 
