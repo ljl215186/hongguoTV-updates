@@ -8,7 +8,9 @@
 
 **[免费下载电视版 APK](https://tv-admin.curatedlifefinds.com/download)** · [GitHub Releases 备用下载](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [反馈问题](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · 当前正式版 0.9.23 / 32 · 包名 `com.hongguo.tv` · 遥控器操作 · 真人剧 / 漫剧
+Android 8.0+ · 新版 0.9.23 / 32（已测试，待公开发布） · 包名 `com.hongguo.tv` · 遥控器操作
+
+0.9.23 新安装包已完成测试，正在准备公开下载。下方界面均来自新版；公开下载入口尚未提供该版本时，请稍后再来。
 
 **安装导航：** [支持的电视品牌](#支持哪些电视品牌和电视盒子) · [U 盘安装图解](INSTALL.md#usb-install) · [手机 / 电脑无线安装](WIRELESS-INSTALL.md) · [按品牌查看安装教程](INSTALL.md#brand-guides) · [安装失败排查](INSTALL.md#troubleshooting)
 
