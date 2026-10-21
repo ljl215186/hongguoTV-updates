@@ -33,7 +33,7 @@
 
 在电脑打开 **[红果 TV 下载页](https://hongguotv-egb.pages.dev/)**，下载正式版。GitHub 用户也可进入 [Releases](https://github.com/ljl215186/hongguoTV-updates/releases/latest)，展开 **Assets / 资源**，点击带版本号的 `.apk` 附件。
 
-- 正确示例：`hongguotv-0.9.23-release.apk`，安装新版时以下载页版本为准。
+- 正确示例：`hongguotv-0.9.25-release.apk`，安装新版时以下载页版本为准。
 - `Source code (zip)`、`Source code (tar.gz)` 是 GitHub 自动生成的仓库压缩包，不能用于电视安装。
 - APK 不需要解压，不需要改后缀，也不需要先安装另一个“红果”应用。
 
@@ -211,8 +211,6 @@ TCL 官方海外 Google TV 教程分为两种情况，国内 TCL / 雷鸟系统�
 ## 安装后如何更新、如何保留记录
 
 在红果 TV 打开 **设置 → 版本与更新**，检查并下载新版，由 Android 系统确认安装。首次应用内更新可能需要为 **红果 TV** 允许安装未知应用；这与首次 U 盘安装时为**文件管理器**授权不同。
-
-![红果 TV 实际应用内更新界面，支持检查新版及自动下载设置](screenshots/updates.png)
 
 当前包名为 `com.hongguo.tv`，首次下载直接安装即可。后续同包名、同正式签名的新版可覆盖升级并保留记录；换设备前可在 **设置 → 手机备份与恢复** 导出 JSON，再在另一台设备导入并核对。
 

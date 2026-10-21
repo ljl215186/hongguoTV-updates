@@ -8,9 +8,9 @@
 
 **[免费下载电视版 APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases 备用下载](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [反馈问题](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · 当前正式版 0.9.23 · 遥控器操作 · 真人剧 / 漫剧
+Android 8.0+ · 当前正式版 0.9.25 · 遥控器操作 · 真人剧 / 漫剧
 
-0.9.23 已正式发布，可通过下载页或 GitHub Releases 获取。下方界面均来自本版本实际运行。
+0.9.25 优化选集换组的焦点保持并简化设置菜单，可通过下载页或 GitHub Releases 获取。下方截图来自 0.9.23 的实际运行，已移除过时的设置页面截图。
 
 **安装导航：** [支持的电视品牌](#支持哪些电视品牌和电视盒子) · [U 盘安装图解](INSTALL.md#usb-install) · [手机 / 电脑无线安装](WIRELESS-INSTALL.md) · [按品牌查看安装教程](INSTALL.md#brand-guides) · [安装失败排查](INSTALL.md#troubleshooting)
 
@@ -40,7 +40,7 @@ Android 8.0+ · 当前正式版 0.9.23 · 遥控器操作 · 真人剧 / 漫剧
 
 ## 界面实拍：从找剧到播放
 
-以下 **14 张截图均来自 0.9.23 新包的实际运行**，重新检查了推荐、找剧、搜索、播放、选集、收藏、设置与更新页面。主要截图为 1080p，大字体示例为 720p；片单和观看记录来自本次测试。
+以下 **12 张截图来自 0.9.23 的实际运行**，展示推荐、找剧、搜索、播放、选集与收藏。主要截图为 1080p，大字体示例为 720p；片单和观看记录来自当时的测试。
 
 | 全屏推荐与底部浮窗 | 推荐页的透明导航 |
 |---|---|
@@ -58,13 +58,9 @@ Android 8.0+ · 当前正式版 0.9.23 · 遥控器操作 · 真人剧 / 漫剧
 |---|---|
 | ![红果 TV 遥控器选集：集数分组与跳转集数](screenshots/episodes.png) | ![红果 TV 播放设置：倍速、清晰度、画面模式和定时停止](screenshots/playback-settings.png) |
 
-| 接着看与收藏状态 | 应用设置 |
+| 接着看与收藏状态 | 更多播放操作 |
 |---|---|
-| ![红果 TV 我的页面：保存第 2 集观看位置，并显示已收藏状态](screenshots/library.png) | ![红果 TV 0.9.23 应用设置：自动连播、播放偏好、备份恢复](screenshots/settings.png) |
-
-| 应用内检查更新 | 更多播放操作 |
-|---|---|
-| ![红果 TV 版本更新页面：检查新版与自动下载设置](screenshots/updates.png) | ![红果 TV 更多操作：收藏本剧、上一集、下一集与播放设置](screenshots/playback-options.png) |
+| ![红果 TV 我的页面：保存第 2 集观看位置，并显示已收藏状态](screenshots/library.png) | ![红果 TV 更多操作：收藏本剧、上一集、下一集与播放设置](screenshots/playback-options.png) |
 
 ### 大字体自动切换四列海报
 
@@ -118,7 +114,7 @@ Android 8.0+ · 当前正式版 0.9.23 · 遥控器操作 · 真人剧 / 漫剧
 3. 使用支持 APK 的文件工具打开安装包，在系统安装器确认安装；首次安装按提示允许**当前文件工具**安装未知来源应用。
 4. 打开红果 TV，无需登录或购买会员，进入推荐或找剧即可开始观看。
 
-文件名示例：`hongguotv-0.9.23-release.apk`。下载 Release 的 APK 附件，不下载 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解压。首次下载直接安装，安装后可在 **设置 → 版本与更新** 获取后续同包名正式版。
+文件名示例：`hongguotv-0.9.25-release.apk`。下载 Release 的 APK 附件，不下载 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解压。首次下载直接安装，安装后可在 **设置 → 版本与更新** 获取后续同包名正式版。
 
 ## 常见问题
 
@@ -138,12 +134,12 @@ App 免费提供，不设置账号注册、会员购买和付费解锁流程。�
 
 正式包名为 `com.hongguo.tv`。收藏、观看进度与设置保存在本应用的独立目录，不需要账号。以后同包名、同正式签名的版本可覆盖升级并保留记录；需要换设备时，可在 **设置 → 手机备份与恢复** 导出和导入 JSON。
 
-### 是红果官方电视版吗？
+### 如何反馈使用问题？
 
-这是独立维护的非官方电视客户端，与红果官方无关联。反馈问题时请附版本、设备型号、Android 版本与复现步骤，请勿公开口令或私人记录。
+请通过本仓库 Issues 反馈，并附版本、设备型号、Android 版本与复现步骤，请勿公开口令或私人记录。
 
 ## 项目说明
 
-此仓库提供正式安装包、使用说明和界面截图。第三方组件许可与署名见 [第三方声明](NOTICE.md)。
+此仓库提供红果 TV 正式安装包、版本更新、使用说明和界面截图。
 
 **[立即免费下载红果 TV](https://hongguotv-egb.pages.dev/)** · [查看版本更新](https://github.com/ljl215186/hongguoTV-updates/releases) · [提交使用反馈](https://github.com/ljl215186/hongguoTV-updates/issues)
