@@ -8,9 +8,9 @@
 
 **[免费下载电视版 APK](https://tv-admin.curatedlifefinds.com/download)** · [GitHub Releases 备用下载](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [反馈问题](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · 新版 0.9.23 / 32（已测试，待公开发布） · 包名 `com.hongguo.tv` · 遥控器操作
+Android 8.0+ · 当前正式版 0.9.23 · 遥控器操作 · 真人剧 / 漫剧
 
-0.9.23 新安装包已完成测试，正在准备公开下载。下方界面均来自新版；公开下载入口尚未提供该版本时，请稍后再来。
+0.9.23 已正式发布，可通过下载页或 GitHub Releases 获取。下方界面均来自本版本实际运行。
 
 **安装导航：** [支持的电视品牌](#支持哪些电视品牌和电视盒子) · [U 盘安装图解](INSTALL.md#usb-install) · [手机 / 电脑无线安装](WIRELESS-INSTALL.md) · [按品牌查看安装教程](INSTALL.md#brand-guides) · [安装失败排查](INSTALL.md#troubleshooting)
 
@@ -142,9 +142,7 @@ App 免费提供，不设置账号注册、会员购买和付费解锁流程。�
 
 这是独立维护的非官方电视客户端，与红果官方无关联。反馈问题时请附版本、设备型号、Android 版本与复现步骤，请勿公开口令或私人记录。
 
-## 下载校验与项目说明
-
-正式包签名 SHA-256：`ec06e0a3b354c0316f0e8d526619565f56d7a31109e6bfc4317b89b584041c81`。每个版本的 APK 校验和见 Release 附件 `SHA256SUMS`。
+## 项目说明
 
 此仓库提供正式安装包、使用说明和界面截图。第三方组件许可与署名见 [第三方声明](NOTICE.md)。
 
