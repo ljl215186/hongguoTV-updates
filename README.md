@@ -8,9 +8,9 @@
 
 **[免费下载电视版 APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases 备用下载](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [反馈问题](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · 当前正式版 0.9.28 · 遥控器操作 · 真人剧 / 漫剧
+Android 8.0+ · 当前正式版 0.9.30 · 遥控器操作 · 真人剧 / 漫剧
 
-0.9.28 将播放进度线左右端点与文字及操作区对齐，保留完整的 App 图标滑块。从正剧返回推荐自动显示顶部导航，切换栏目时导航文字位置统一。继续支持全库搜索分页和末页提示。下方截图来自 0.9.23 的实际运行，仅供界面参考；新版按键以本文操作表为准，本次未进行设备或模拟器验收。
+0.9.30 修复重启后推荐反复显示“暂无新推荐”的问题：更新推荐请求方式并保留有效续页位置，继续寻找未浏览内容。进度滑块整体缩小 20%，图案向右微调，保留进度线对齐、推荐透明导航及全库搜索分页。下方截图来自 0.9.23 的实际运行，仅供界面参考；新版按键以本文操作表为准，本次未进行设备或模拟器验收。
 
 **安装导航：** [支持的电视品牌](#支持哪些电视品牌和电视盒子) · [U 盘安装图解](INSTALL.md#usb-install) · [手机 / 电脑无线安装](WIRELESS-INSTALL.md) · [按品牌查看安装教程](INSTALL.md#brand-guides) · [安装失败排查](INSTALL.md#troubleshooting)
 
@@ -116,7 +116,7 @@ Android 8.0+ · 当前正式版 0.9.28 · 遥控器操作 · 真人剧 / 漫剧
 3. 使用支持 APK 的文件工具打开安装包，在系统安装器确认安装；首次安装按提示允许**当前文件工具**安装未知来源应用。
 4. 打开红果 TV，无需登录或购买会员，进入推荐或找剧即可开始观看。
 
-文件名示例：`hongguotv-0.9.28-release.apk`。下载 Release 的 APK 附件，不下载 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解压。首次下载直接安装，安装后可在 **设置 → 版本与更新** 获取后续同包名正式版。
+文件名示例：`hongguotv-0.9.30-release.apk`。下载 Release 的 APK 附件，不下载 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解压。首次下载直接安装，安装后可在 **设置 → 版本与更新** 获取后续同包名正式版。
 
 ## 常见问题
 
