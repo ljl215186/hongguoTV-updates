@@ -2,7 +2,7 @@
 
 **免费下载安装，无需登录，无需 App 会员。** 本页帮助你先确认电视是否兼容，再通过 U 盘或设备支持的文件传输方式安装红果 TV。
 
-[免费下载正式 APK](https://hongguotv-egb.pages.dev/) · [GitHub 备用下载](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [无线安装图文教程](WIRELESS-INSTALL.md) · [返回功能介绍与界面截图](README.md)
+[免费下载正式 APK](https://hongguotv-egb.pages.dev/) · [GitHub 备用下载](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [电视盒子分品牌教程](README.md#tv-box-install) · [无线安装图文教程](WIRELESS-INSTALL.md) · [返回功能介绍与界面截图](README.md)
 
 说明核对日期：**2026-10-20**。教程根据厂商公开说明整理；系统菜单会随型号、地区和固件变化。三张配图为本项目制作的**操作示意图，不是各品牌系统截图**；厂商原图与完整步骤可打开对应官方链接查看。
 
@@ -183,7 +183,19 @@ TCL 官方海外 Google TV 教程分为两种情况，国内 TCL / 雷鸟系统�
 <a id="android-box"></a>
 ### 其他 Android 电视盒子 / 投影仪
 
-小米盒子、当贝盒子、天猫魔盒、腾讯极光盒子及其他 Android 设备，请**逐型号确认 Android 8.0+、APK 安装权限和遥控器兼容性**；品牌旧款不一定达到最低系统要求，也未完成本项目逐型号认证。
+README 已补充 **[电视盒子分品牌安装教程](README.md#tv-box-install)**，包括具体步骤、通用图解和厂商 / 工具开发者资料；盒子章节补充核对于 **2026-10-22**。请逐型号确认 Android 8.0+、APK 安装权限和遥控器兼容性。
+
+| 盒子 | 对应步骤 |
+|---|---|
+| 小米盒子、Xiaomi TV Box S / Mi Box S | [国内版 U 盘、海外版文件传输](README.md#box-xiaomi) |
+| 当贝盒子 | [U 盘和远程推送](README.md#box-dangbei) |
+| 腾讯极光 / 创维盒子 | [本机文件工具安装](README.md#box-tencent) |
+| 天猫魔盒 | [系统核对与条件式安装](README.md#box-tmall) |
+| 芝杜、海美迪 | [文件管理与旧型号系统限制](README.md#box-zidoo-himedia) |
+| NVIDIA SHIELD TV / Pro | [无线传输、Pro 的 USB / 局域网传输](README.md#box-shield) |
+| Google TV Streamer、Chromecast with Google TV、onn. Google TV | [手机传输和直接下载](README.md#box-google-tv) |
+| Amazon Fire TV Stick / Cube | [Fire OS 条件、Downloader 安装](README.md#box-fire-tv) |
+| 通用 Android 盒子、运营商盒子 | [开放安装条件与通用方法](README.md#box-generic) |
 
 1. 电视盒子通过 HDMI 连接电视，并切换到相应信号源；在盒子本身安装 APK，而不是电视的另一套系统。
 2. 有 USB 接口时，按 [U 盘六步流程](#usb-install) 安装；投影仪同样核对其实际 Android 系统和文件工具。
