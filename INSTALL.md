@@ -33,7 +33,7 @@
 
 在电脑打开 **[红果 TV 下载页](https://hongguotv-egb.pages.dev/)**，下载正式版。GitHub 用户也可进入 [Releases](https://github.com/ljl215186/hongguoTV-updates/releases/latest)，展开 **Assets / 资源**，点击带版本号的 `.apk` 附件。
 
-- 正确示例：`hongguotv-0.9.40-release.apk`，安装新版时以下载页版本为准。
+- 正确示例：`hongguotv-0.9.42-release.apk`，安装新版时以下载页版本为准。
 - `Source code (zip)`、`Source code (tar.gz)` 是 GitHub 自动生成的仓库压缩包，不能用于电视安装。
 - APK 不需要解压，不需要改后缀，也不需要先安装另一个“红果”应用。
 
