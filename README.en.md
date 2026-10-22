@@ -10,7 +10,7 @@ Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming d
 
 **[Download the APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases mirror](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [Report a problem](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · Public release: **0.9.31** · Package: `com.hongguo.tv`
+Android 8.0+ · Public release: **0.9.35** · Package: `com.hongguo.tv`
 
 This is an unofficial client for personal research, learning and technical exchange. Third-party works and marks belong to their owners. Use only within your legal authorization; a research purpose does not grant content rights. See the [full disclaimer, in Chinese](DISCLAIMER.md).
 
@@ -30,11 +30,11 @@ Playback quality and buffering depend on your device, connection and the content
 
 ## Interface languages
 
-Builds from **0.9.35** offer **Settings → Language** with **简体中文 (Simplified Chinese), 繁體中文 (Traditional Chinese) and English**. Selecting a language reloads the interface and returns to language settings. Your choice is remembered on this device and does not change the TV system language.
+Releases from **0.9.35** offer **Settings → Language** with **简体中文 (Simplified Chinese), 繁體中文 (Traditional Chinese) and English**. Selecting a language reloads the interface and returns to language settings. Your choice is remembered on this device and does not change the TV system language.
 
 Navigation, common ranking and filter labels, search prompts, playback controls, settings, backup prompts and update dialogs are translated. Show titles, synopses, subtitles, search input and release notes from the server remain in their original language. Language selection does not change favorites, viewing progress or content-library preferences, and is not overwritten by a library backup.
 
-**Availability:** the public download is currently 0.9.31. The language setting is implemented in the 0.9.35 source build and will be included in a later public release. The screenshots below show the older Chinese interface, not device testing of the new translations.
+**Availability:** 0.9.35 is published on GitHub Releases and CF / R2. Download the APK or check for updates in the app. The screenshots below show the older Chinese interface and do not represent device testing of the new translations.
 
 ## Four main sections
 
@@ -121,7 +121,7 @@ Ordinary screen mirroring or video casting does not install APKs. The receiving 
 
 Use **Settings → Version and updates** to check, download and install a compatible release. Android may ask for installation permission and always requires system confirmation. Later official releases with the same package and signing certificate can upgrade the app while keeping records.
 
-From 0.9.33 builds, updates are checked at each launch and foreground return. Optional updates include Later. A required update cannot be dismissed; an episode already underway may finish before the dialog appears. Public 0.9.31 uses the earlier behavior.
+From 0.9.33, including public release 0.9.35, updates are checked at each launch and foreground return. Optional updates include Later. A required update cannot be dismissed; an episode already underway may finish before the dialog appears.
 
 Favorites, watch-later titles and progress are local. Use **Settings → Phone backup and restore** to export/import a JSON backup when moving to another device. Language choice is specific to each device.
 
