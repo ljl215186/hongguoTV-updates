@@ -2,7 +2,7 @@
 
 [返回简体中文介绍](README.md) · [繁體中文](README.zh-TW.md) · [English](README.en.md)
 
-2026-10-24 在 121 Android 9 测试设备上重新采集，使用 1920×1080 横屏画布。主要界面来自 0.9.73，最终设置、备份与更新页面来自 0.9.74；两版共用本轮修复的弹幕布局。以下均为实际画面，没有注入示例账号、评论或片单。点击图片可查看原图。
+以下均为 121 Android 9 测试设备的实际画面，使用 1920×1080 横屏画布。彩色弹幕、播放菜单、评论、手机号登录及设置已于 2026-10-24 以 0.9.75 重新采集，其余推荐、找剧、片单及备份等页面沿用 0.9.73 / 0.9.74 图集。没有注入示例账号、评论或片单；点击图片可查看原图。
 
 ## 推荐与找剧 / Discover
 
@@ -34,44 +34,44 @@
 
 | 全屏播放 | 播放控制与互动数量 |
 |---|---|
-| ![正剧全屏播放](screenshots/v0.9.73/playback-fullscreen.png) | ![进度条、选集、清晰度及倍速](screenshots/v0.9.73/playback-controls.png) |
+| ![正剧全屏播放](screenshots/v0.9.75/playback-fullscreen.png) | ![进度条、选集、清晰度及倍速](screenshots/v0.9.75/playback-controls.png) |
 
 | 评论列表 | 向下浏览更多评论 |
 |---|---|
-| ![真实评论列表侧栏](screenshots/v0.9.73/comments.png) | ![评论列表向下滚动](screenshots/v0.9.73/comments-more.png) |
+| ![真实评论列表侧栏](screenshots/v0.9.75/comments.png) | ![评论列表向下滚动](screenshots/v0.9.75/comments-more.png) |
 
 | 播放中选集 | 清晰度 |
 |---|---|
-| ![选集分组和跳转入口](screenshots/v0.9.73/episodes.png) | ![480P、720P、1080P 清晰度选项](screenshots/v0.9.73/quality.png) |
+| ![选集分组和跳转入口](screenshots/v0.9.75/episodes.png) | ![480P、720P、1080P 清晰度选项](screenshots/v0.9.75/quality.png) |
 
 | 播放倍速 | 更多播放设置 |
 |---|---|
-| ![0.75 至 2 倍播放速度](screenshots/v0.9.73/speed.png) | ![更多播放设置菜单](screenshots/v0.9.73/playback-more.png) |
+| ![0.75 至 2 倍播放速度](screenshots/v0.9.75/speed.png) | ![更多播放设置菜单](screenshots/v0.9.75/playback-more.png) |
 
 | 画面模式 | 定时停止 |
 |---|---|
-| ![完整画面、等比铺满、拉伸铺满](screenshots/v0.9.73/picture-mode.png) | ![按分钟或集数定时停止](screenshots/v0.9.73/sleep-timer.png) |
+| ![完整画面、等比铺满、拉伸铺满](screenshots/v0.9.75/picture-mode.png) | ![按分钟或集数定时停止](screenshots/v0.9.75/sleep-timer.png) |
 
 <a id="danmaku"></a>
-## 弹幕范围与设置 / On-screen Messages
+## 彩色弹幕与显示设置 / Colorful On-screen Messages
 
-全屏和半屏两张图来自同一集、同一播放位置：全屏的上下区域都可显示，半屏只使用上半屏。每条弹幕左侧显示圆形头像，暂时无可用头像时使用默认图。
+弹幕默认“多彩 + 半屏”，已保存的本机选择继续保留。以下全屏和半屏图来自同一集、同一播放位置：全屏的上下区域都可显示，半屏只使用上半屏；文字使用多种色彩，左侧显示圆形头像，暂时无可用头像时使用默认图。
 
 | 全屏 | 半屏 |
 |---|---|
-| ![全屏弹幕覆盖上下区域](screenshots/v0.9.73/danmaku-full.png) | ![半屏弹幕限制在上半屏](screenshots/v0.9.73/danmaku-half.png) |
+| ![全屏弹幕覆盖上下区域](screenshots/v0.9.75/danmaku-full.png) | ![半屏弹幕限制在上半屏](screenshots/v0.9.75/danmaku-half.png) |
 
 | 四项设置 | 显示范围 |
 |---|---|
-| ![显示、透明度、速度与色彩](screenshots/v0.9.73/danmaku-settings.png) | ![全屏、半屏和不显示](screenshots/v0.9.73/danmaku-display.png) |
+| ![显示、透明度、速度与色彩](screenshots/v0.9.75/danmaku-settings.png) | ![全屏、半屏和不显示](screenshots/v0.9.75/danmaku-display.png) |
 
 | 透明度 | 弹幕速度 |
 |---|---|
-| ![弹幕透明度](screenshots/v0.9.73/danmaku-opacity.png) | ![弹幕滚动速度](screenshots/v0.9.73/danmaku-speed.png) |
+| ![弹幕透明度](screenshots/v0.9.75/danmaku-opacity.png) | ![弹幕滚动速度](screenshots/v0.9.75/danmaku-speed.png) |
 
 | 色彩 | 关闭弹幕 |
 |---|---|
-| ![白色、暖黄、浅蓝、薄荷绿、浅粉和多彩](screenshots/v0.9.73/danmaku-color.png) | ![不显示弹幕时的播放画面](screenshots/v0.9.73/danmaku-off.png) |
+| ![白色、暖黄、浅蓝、薄荷绿、浅粉和多彩](screenshots/v0.9.75/danmaku-color.png) | ![不显示弹幕时的播放画面](screenshots/v0.9.75/danmaku-off.png) |
 
 ## 我的与可选登录 / Library and Login
 
@@ -81,17 +81,17 @@
 
 | 稍后看 | 手机号登录 |
 |---|---|
-| ![稍后看片单空态](screenshots/v0.9.74/watch-later.png) | ![游客登录表单与手机号右侧验证码按钮](screenshots/v0.9.74/login.png) |
+| ![稍后看片单空态](screenshots/v0.9.74/watch-later.png) | ![游客登录表单与手机号右侧验证码按钮](screenshots/v0.9.75/login.png) |
 
 ![游客选择账号互动时的登录提示](screenshots/v0.9.73/login-prompt.png)
 
-当前 App 为游客状态，因此没有用示例账号展示已登录资料或点赞片单。本次未发送短信、未执行账号收藏或点赞回写；账号服务可用性与真实登录需本人完成验证，游客观看不受影响。
+支持手机号登录、自动读取账号片单以及播放中点赞、收藏。登录图展示游客表单，账号资料和点赞片单在本人登录后显示；本次截图未发送短信，也未改动账号互动状态。
 
 ## 设置、语言、备份与更新 / Settings
 
 | 应用设置 | 三种语言 |
 |---|---|
-| ![0.9.74 应用设置](screenshots/v0.9.74/settings.png) | ![简体中文、繁体中文、English](screenshots/v0.9.73/language.png) |
+| ![0.9.75 应用设置](screenshots/v0.9.75/settings.png) | ![简体中文、繁体中文、English](screenshots/v0.9.73/language.png) |
 
 | English | 繁體中文 |
 |---|---|

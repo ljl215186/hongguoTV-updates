@@ -1,18 +1,18 @@
-# Hongguo TV | Free Android TV Short Drama Player — No Login or Membership Required
+# Hongguo TV | Free Android TV Dramas, Account Sync and Colorful On-screen Comments
 
 [简体中文](README.md) · [繁體中文](README.zh-TW.md) · [English](README.en.md)
 
 <img src="screenshots/hongguo-logo.png" width="220" height="64" alt="Hongguo TV logo">
 
-**Short dramas and comics on your TV. Free to download and watch, with no paid app membership or mandatory login.**
+**Short dramas and comics on your TV. Choose guest viewing or account sync, like and save shows, and watch with colorful on-screen comments.**
 
-Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming devices. Browse recommendations, explore rankings, search live-action dramas and comics, read comments and resume watching with a remote. Optional phone-number login lets you read your own account's favorites, viewing history and liked-title lists, and merge local records when needed.
+Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming devices. Explore recommendations, rankings, live-action dramas and comics, or search for a title. Watch as a guest, or sign in to your Hongguo account by phone number to load favorites, history and liked-title lists automatically. Like and save shows from the player, merge local records when needed, browse comments and enjoy colorful on-screen messages with round avatars. Episode groups, playback speed and resume controls work with a remote.
 
 **[Download the APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases mirror](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [Report a problem](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · Current version **0.9.74** · Package: `com.hongguo.tv` · Three interface languages
+Android 8.0+ · Current version **0.9.75** · Package: `com.hongguo.tv` · Three interface languages
 
-**Latest changes:** full-screen scrolling comments now use the entire playback area, while half-screen mode stays within the upper half. Round avatars, display settings, paged comments, optional account lists and local-record merging are retained. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
+**Latest changes:** on-screen messages default to multiple colors in the upper half, leaving more space below. Choose full-screen or off, and adjust transparency, speed and color. Existing saved choices are preserved. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
 
 This is an unofficial client for personal research, learning and technical exchange. Third-party works and marks belong to their owners. Use within your legal authorization; see the [disclaimer, in Chinese](DISCLAIMER.md).
 
@@ -23,11 +23,12 @@ This is an unofficial client for personal research, learning and technical excha
 | Feature | What you get |
 |---|---|
 | Free app | No paid app membership or episode-unlock purchase flow. |
-| Watch without login | Browse, play and keep local viewing progress as a guest. |
-| Optional account login | Read your account's favorites, history and liked titles, with manual local-record merging. |
+| Optional login | Watch as a guest or sign in to your own Hongguo account by phone number. |
+| Account sync and merging | Automatically load account favorites, history and liked titles; merge local records when needed. |
+| Likes and favorites | Like and save shows from the full-episode player, with status and counts on the buttons. |
 | Made for a remote | Large posters, visible focus, directional navigation and transparent playback controls. |
 | Continuous viewing | Next-episode preparation, autoplay, resume, quality, speed and picture settings. |
-| Comments and on-screen messages | Browse more comments with Down; choose full-screen, upper-half or off, plus transparency, speed and color. |
+| Colorful messages and comments | Multicolor upper-half messages with round avatars by default; adjust coverage, transparency, speed and color, and browse more comments with Down. |
 | Three languages | Simplified Chinese, Traditional Chinese and English in Settings → Language. |
 
 ## Four main sections
@@ -41,7 +42,7 @@ Login is optional. Enter verification codes only on your own device. Account lis
 
 ## New screenshots
 
-These actual screens were captured on **2026-10-24** from versions **0.9.73 / 0.9.74**, on an Android 9 test device at 1920×1080. No sample accounts, comments or library records were injected. The guest login form is not evidence of a completed SMS login. See the **[full functional gallery](SCREENSHOTS.md)** for every captured menu and settings page.
+These are actual screens from an Android 9 test device at 1920×1080. Colorful messages and player interactions were recaptured with **0.9.75**; other pages use the 0.9.73 / 0.9.74 gallery. See the **[full functional gallery](SCREENSHOTS.md)** for more menus and settings.
 
 | Recommendations | Search |
 |---|---|
@@ -49,17 +50,17 @@ These actual screens were captured on **2026-10-24** from versions **0.9.73 / 0.
 
 | Playback controls | Comment list |
 |---|---|
-| ![Timeline, episode selection and interaction counts](screenshots/v0.9.73/playback-controls.png) | ![Comments with downward navigation](screenshots/v0.9.73/comments.png) |
+| ![Timeline, episode selection and interaction counts](screenshots/v0.9.75/playback-controls.png) | ![Comments with downward navigation](screenshots/v0.9.75/comments.png) |
 
 | Episode groups | Optional login |
 |---|---|
-| ![Grouped episode selector](screenshots/v0.9.73/episodes.png) | ![Guest phone-number login form](screenshots/v0.9.74/login.png) |
+| ![Grouped episode selector](screenshots/v0.9.75/episodes.png) | ![Guest phone-number login form](screenshots/v0.9.75/login.png) |
 
 | Full-screen messages | Upper-half messages |
 |---|---|
-| ![Full-screen messages extend into the lower half](screenshots/v0.9.73/danmaku-full.png) | ![Half-screen messages remain above the midpoint](screenshots/v0.9.73/danmaku-half.png) |
+| ![Full-screen messages extend into the lower half](screenshots/v0.9.75/danmaku-full.png) | ![Half-screen messages remain above the midpoint](screenshots/v0.9.75/danmaku-half.png) |
 
-Both message-layout screenshots use the same episode and playback position. Round avatars use real public profile data, with a default image when unavailable.
+Both colorful-message screenshots use the same episode and playback position. Upper-half is the default; full-screen uses the entire playback area. Round avatars use real public profile data, with a default image when unavailable.
 
 ![Hongguo TV English settings](screenshots/v0.9.73/settings-en.png)
 
