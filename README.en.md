@@ -1,76 +1,80 @@
-# Hongguo TV | Free Android TV Short Drama Player — No Login or Membership
+# Hongguo TV | Free Android TV Short Drama Player — No Login or Membership Required
 
 [简体中文](README.md) · [繁體中文](README.zh-TW.md) · [English](README.en.md)
 
 <img src="screenshots/hongguo-logo.png" width="220" height="64" alt="Hongguo TV logo">
 
-**Short dramas and comics on your TV. Free to download, no app account or paid membership required.**
+**Short dramas and comics on your TV. Free to download and watch, with no paid app membership or mandatory login.**
 
-Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming devices. Browse full-screen recommendations, explore rankings, search live-action short dramas and comics, save favorites and resume watching with a remote control.
+Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming devices. Browse recommendations, explore rankings, search live-action dramas and comics, read comments and resume watching with a remote. Optional phone-number login lets you read your own account's favorites, viewing history and liked-title lists, and merge local records when needed.
 
 **[Download the APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases mirror](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [Report a problem](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · Public release: **0.9.42** · Package: `com.hongguo.tv`
+Android 8.0+ · Current version **0.9.74** · Package: `com.hongguo.tv` · Three interface languages
 
-This is an unofficial client for personal research, learning and technical exchange. Third-party works and marks belong to their owners. Use only within your legal authorization; a research purpose does not grant content rights. See the [full disclaimer, in Chinese](DISCLAIMER.md).
+**Latest changes:** full-screen scrolling comments now use the entire playback area, while half-screen mode stays within the upper half. Round avatars, display settings, paged comments, optional account lists and local-record merging are retained. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
 
-## Free to use and easy to navigate
+This is an unofficial client for personal research, learning and technical exchange. Third-party works and marks belong to their owners. Use within your legal authorization; see the [disclaimer, in Chinese](DISCLAIMER.md).
+
+![Hongguo TV rankings and separate search entry](screenshots/v0.9.74/discovery.png)
+
+## Free viewing, optional account features
 
 | Feature | What you get |
 |---|---|
-| Free app | No app subscription or paid episode-unlock flow. |
-| No login | Browse and watch without creating an app account or scanning a login code. |
-| Made for TV | Large posters, visible focus and transparent playback overlays. |
-| Continuous viewing | Next-episode preparation, autoplay, resume, playback speed and quality settings. |
-| Discover more | Recommended, trending, new release, upcoming and other rankings, plus filters. |
-| Local library | Favorites, watch later and viewing progress saved on your device. |
-| Search across libraries | Search live-action dramas and comics together, with pagination and duplicate filtering. |
-
-Playback quality and buffering depend on your device, connection and the content source. If playback stalls, check the network, lower the quality or retry.
-
-## Interface languages
-
-Releases from **0.9.35** offer **Settings → Language** with **简体中文 (Simplified Chinese), 繁體中文 (Traditional Chinese) and English**. Selecting a language reloads the interface and returns to language settings. Your choice is remembered on this device and does not change the TV system language.
-
-Navigation, common ranking and filter labels, search prompts, playback controls, settings, backup prompts and update dialogs are translated. Show titles, synopses, subtitles, search input and release notes from the server remain in their original language. Language selection does not change favorites, viewing progress or content-library preferences, and is not overwritten by a library backup.
-
-**Availability:** 0.9.42 is published on GitHub Releases and CF / R2. The support and community page now uses consistent cards and remote-control navigation. Join the QQ community **1129169325** by scanning its code in the app. An Android 9 test device was used to verify an in-place upgrade, card navigation and enlarged codes. This is not certification for every TV model. Search and ranking fixes, library recovery and all three interface languages are retained. The screenshots below show an older Chinese interface.
+| Free app | No paid app membership or episode-unlock purchase flow. |
+| Watch without login | Browse, play and keep local viewing progress as a guest. |
+| Optional account login | Read your account's favorites, history and liked titles, with manual local-record merging. |
+| Made for a remote | Large posters, visible focus, directional navigation and transparent playback controls. |
+| Continuous viewing | Next-episode preparation, autoplay, resume, quality, speed and picture settings. |
+| Comments and on-screen messages | Browse more comments with Down; choose full-screen, upper-half or off, plus transparency, speed and color. |
+| Three languages | Simplified Chinese, Traditional Chinese and English in Settings → Language. |
 
 ## Four main sections
 
-- **For You:** full-screen previews with sound. Up and down change recommendations; OK opens the full show.
-- **Discover:** rankings, live-action/comic filters and search across both libraries.
-- **Library:** continue watching, favorites and watch later.
-- **Settings:** default quality, speed, picture mode, autoplay, backup/restore and updates; language selection from 0.9.35.
+- **For You:** full-screen previews. Up/down changes titles, OK opens the full show, and Back reveals navigation.
+- **Discover:** rankings, live-action/comic filters and search with pagination. A failed request can be retried without losing the current page.
+- **Library:** Login, Continue watching, Favorites and Watch later for guests; account information and liked-title lists are available after login.
+- **Settings:** default quality, speed, picture mode, autoplay, language, phone backup/restore and updates.
 
-Search results support Previous page and Next page. At the end, the app shows a message and stays on the current page. A failed request also keeps your current results. Voice input uses compatible system speech services, with the TV keyboard as a fallback.
+Login is optional. Enter verification codes only on your own device. Account lists are stored separately; failed account requests keep the previous state. QR login is not available, and history or merged local records are not automatically uploaded.
+
+## New screenshots
+
+These actual screens were captured on **2026-10-24** from versions **0.9.73 / 0.9.74**, on an Android 9 test device at 1920×1080. No sample accounts, comments or library records were injected. The guest login form is not evidence of a completed SMS login. See the **[full functional gallery](SCREENSHOTS.md)** for every captured menu and settings page.
+
+| Recommendations | Search |
+|---|---|
+| ![Transparent recommendation navigation](screenshots/v0.9.73/recommendation.png) | ![Actual search results](screenshots/v0.9.74/search-results.png) |
+
+| Playback controls | Comment list |
+|---|---|
+| ![Timeline, episode selection and interaction counts](screenshots/v0.9.73/playback-controls.png) | ![Comments with downward navigation](screenshots/v0.9.73/comments.png) |
+
+| Episode groups | Optional login |
+|---|---|
+| ![Grouped episode selector](screenshots/v0.9.73/episodes.png) | ![Guest phone-number login form](screenshots/v0.9.74/login.png) |
+
+| Full-screen messages | Upper-half messages |
+|---|---|
+| ![Full-screen messages extend into the lower half](screenshots/v0.9.73/danmaku-full.png) | ![Half-screen messages remain above the midpoint](screenshots/v0.9.73/danmaku-half.png) |
+
+Both message-layout screenshots use the same episode and playback position. Round avatars use real public profile data, with a default image when unavailable.
+
+![Hongguo TV English settings](screenshots/v0.9.73/settings-en.png)
 
 ## Remote control guide
 
 | Where you are | Controls |
 |---|---|
 | Top navigation | Left/right switches sections; OK or Down enters the content. |
-| Recommendation preview | Up/down changes titles; OK watches the full show; left/right or Menu opens actions. |
-| Full episode | Up/down selects the previous/next episode; OK pauses/resumes; left/right or Menu opens controls. |
-| Playback controls | The first left/right press opens controls. On the timeline, left/right seeks and up/down selects actions. On a button, left/right moves focus and OK activates it. |
-| Menus | Back closes the current menu or overlay before returning to the previous page. Returning from a show to recommendations reveals the top navigation. |
-| Pagination | Focus Previous page or Next page and press OK. Focus remains on the selected paging button. |
+| Recommendation preview | Up/down changes titles; OK opens the full show. Left/right or Menu reveals controls. |
+| Full episode | Up/down changes episodes; OK pauses/resumes. |
+| Playback controls | The first left/right press only reveals controls. The timeline icon marks focus; left/right seeks and up/down selects actions. |
+| Menus and comments | Directions operate the current panel. Back closes one layer at a time; returning to recommendations reveals the top navigation. |
+| Pagination and episode groups | Focus the paging button and press OK. Focus remains on that button; the last page does not advance to an empty page. |
 
-## Screenshots
-
-These are actual **0.9.23** screenshots, provided as interface references. The tested environment was Android 9 / x86_64 at 1080p, with 720p and larger text also checked. This does not certify every TV brand or the later language build.
-
-| Discover | Search |
-|---|---|
-| ![Ranking posters and separate search entry](screenshots/discovery.png) | ![Search results across live-action dramas and comics](screenshots/search-results.png) |
-
-| Recommendations | Filters |
-|---|---|
-| ![Full-screen preview with transparent actions](screenshots/recommendation-panel.png) | ![Comic category and art-style filters](screenshots/filters-comic.png) |
-
-| Playback | Library |
-|---|---|
-| ![Full-screen short drama playback](screenshots/playback-fullscreen.png) | ![Local favorites and viewing progress](screenshots/library.png) |
+Playback smoothness depends on the device, connection and content source. Lower the quality or retry if buffering occurs. Test-device screenshots do not certify every TV brand or system voice service.
 
 ## Supported TVs and streaming boxes
 
@@ -121,9 +125,9 @@ Ordinary screen mirroring or video casting does not install APKs. The receiving 
 
 Use **Settings → Version and updates** to check, download and install a compatible release. Android may ask for installation permission and always requires system confirmation. Later official releases with the same package and signing certificate can upgrade the app while keeping records.
 
-From 0.9.33, including public release 0.9.42, updates are checked at each launch and foreground return. Optional updates include Later. A required update cannot be dismissed; an episode already underway may finish before the dialog appears.
+Updates are checked at each launch and foreground return. Optional updates include Later. A required update cannot be dismissed; an episode already underway may finish before the dialog appears.
 
-Favorites, watch-later titles and progress are local. Use **Settings → Phone backup and restore** to export/import a JSON backup when moving to another device. Language choice is specific to each device.
+Guest favorites, watch-later titles and progress are local. Account lists are stored separately, and local-record merging is manual; history and merged records are not automatically uploaded. Use **Settings → Phone backup and restore** to export/import JSON when changing devices. Language choice stays on the device.
 
 ## Troubleshooting and feedback
 
