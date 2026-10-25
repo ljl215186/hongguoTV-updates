@@ -12,6 +12,14 @@
 
 Android 8.0+ · 当前版本 **0.9.75** · 可选账号同步 · 真人剧 / 漫剧 · 三语界面
 
+**Telegram：** [发布频道 · 版本动态](https://t.me/HongGuoTVPublish) · [交流群 · 使用反馈](https://t.me/HongGuoTVJiaoLiu)
+
+| 发布频道 | 交流群 |
+|---|---|
+| <img src="screenshots/tg-publish.png" width="220" alt="红果TV Telegram 发布频道二维码"> | <img src="screenshots/tg-community.png" width="220" alt="红果TV Telegram 交流群二维码"> |
+
+开发体验版另支持片单上方“查看剧集详情”和动态扩展页面；正式下载版本以下载页为准。
+
 **本次更新：** 弹幕默认“多彩 + 半屏”，圆形头像与彩色文字一起显示，尽量为画面下方留出空间。仍可选择全屏或关闭，并调整透明度、速度和色彩；已保存的本机选择继续保留。**[查看完整功能截图](SCREENSHOTS.md)**。
 
 **安装导航：** [支持的电视品牌](#支持哪些电视品牌和电视盒子) · [各种电视盒子安装教程](#tv-box-install) · [U 盘安装图解](INSTALL.md#usb-install) · [手机 / 电脑无线安装](WIRELESS-INSTALL.md) · [按电视品牌查看教程](INSTALL.md#brand-guides) · [安装失败排查](INSTALL.md#troubleshooting)

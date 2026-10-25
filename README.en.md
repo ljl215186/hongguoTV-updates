@@ -12,6 +12,14 @@ Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming d
 
 Android 8.0+ · Current version **0.9.75** · Package: `com.hongguo.tv` · Three interface languages
 
+**Telegram:** [Release channel](https://t.me/HongGuoTVPublish) · [Community and feedback](https://t.me/HongGuoTVJiaoLiu)
+
+| Release channel | Community |
+|---|---|
+| <img src="screenshots/tg-publish.png" width="220" alt="Hongguo TV Telegram release channel QR code"> | <img src="screenshots/tg-community.png" width="220" alt="Hongguo TV Telegram community QR code"> |
+
+The development preview also adds a “Show details” button above library lists and dynamic extension pages. The download page identifies the current public release.
+
 **Latest changes:** on-screen messages default to multiple colors in the upper half, leaving more space below. Choose full-screen or off, and adjust transparency, speed and color. Existing saved choices are preserved. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
 
 This is an unofficial client for personal research, learning and technical exchange. Third-party works and marks belong to their owners. Use within your legal authorization; see the [disclaimer, in Chinese](DISCLAIMER.md).
