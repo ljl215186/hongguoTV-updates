@@ -18,7 +18,7 @@ Android 8.0+ · Current version **0.9.75** · Package: `com.hongguo.tv` · Three
 |---|---|
 | <img src="screenshots/tg-publish.png" width="220" alt="Hongguo TV Telegram release channel QR code"> | <img src="screenshots/tg-community.png" width="220" alt="Hongguo TV Telegram community QR code"> |
 
-The development preview also adds a “Show details” button above library lists and dynamic extension pages. The download page identifies the current public release.
+The development preview also adds a “Show details” button above library lists and dynamic extension pages. A dedicated Community page brings together the release channel and discussion group. The download page identifies the current public release.
 
 **Latest changes:** on-screen messages default to multiple colors in the upper half, leaving more space below. Choose full-screen or off, and adjust transparency, speed and color. Existing saved choices are preserved. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
 
