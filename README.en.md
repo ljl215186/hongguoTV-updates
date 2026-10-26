@@ -10,7 +10,7 @@ Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming d
 
 **[Download the APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases mirror](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [Report a problem](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · Current version **0.9.75** · Package: `com.hongguo.tv` · Three interface languages
+Android 8.0+ · Current version **0.9.101** · Package: `com.hongguo.tv` · Three interface languages
 
 **Telegram:** [Release channel](https://t.me/HongGuoTVPublish) · [Community and feedback](https://t.me/HongGuoTVJiaoLiu)
 
@@ -18,9 +18,9 @@ Android 8.0+ · Current version **0.9.75** · Package: `com.hongguo.tv` · Three
 |---|---|
 | <img src="screenshots/tg-publish.png" width="220" alt="Hongguo TV Telegram release channel QR code"> | <img src="screenshots/tg-community.png" width="220" alt="Hongguo TV Telegram community QR code"> |
 
-In the development preview, select a title in your library and press Menu to choose “Show details.” Dynamic extension pages are also supported, with a dedicated Community page for the release channel and discussion group. The download page identifies the current public release.
+Select a title in your library and press Menu to choose “Show details.” During playback, open “More” to view the show description.
 
-**Latest changes:** on-screen messages default to multiple colors in the upper half, leaving more space below. Choose full-screen or off, and adjust transparency, speed and color. Existing saved choices are preserved. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
+**Latest changes:** improved account recommendations, saved browsing progress and refresh continuity after returning to the home feed or restarting. Improved stability when switching shows, selecting episodes and continuing playback. Returning from an episode preserves the current episode and playback position. Colorful on-screen comments support avatars, like counts and adjustable area, density, opacity and speed. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
 
 This is an unofficial client for personal research, learning and technical exchange. Third-party works and marks belong to their owners. Use within your legal authorization; see the [disclaimer, in Chinese](DISCLAIMER.md).
 

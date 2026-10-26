@@ -10,7 +10,7 @@
 
 **[免费下载电视版 APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases 备用下载](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [反馈问题](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · 当前版本 **0.9.75** · 可选账号同步 · 真人剧 / 漫剧 · 三语界面
+Android 8.0+ · 当前版本 **0.9.101** · 可选账号同步 · 真人剧 / 漫剧 · 三语界面
 
 **Telegram：** [发布频道 · 版本动态](https://t.me/HongGuoTVPublish) · [交流群 · 使用反馈](https://t.me/HongGuoTVJiaoLiu)
 
@@ -18,9 +18,9 @@ Android 8.0+ · 当前版本 **0.9.75** · 可选账号同步 · 真人剧 / 漫
 |---|---|
 | <img src="screenshots/tg-publish.png" width="220" alt="红果TV Telegram 发布频道二维码"> | <img src="screenshots/tg-community.png" width="220" alt="红果TV Telegram 交流群二维码"> |
 
-开发体验版可在片单中选中作品后按菜单键，选择“查看剧集详情”；另支持动态扩展页面，交流页集中展示发布频道与交流群。正式下载版本以下载页为准。
+在片单中选中作品后按菜单键，选择“查看剧集详情”；播放时也可通过“更多”查看作品介绍。
 
-**本次更新：** 弹幕默认“多彩 + 半屏”，圆形头像与彩色文字一起显示，尽量为画面下方留出空间。仍可选择全屏或关闭，并调整透明度、速度和色彩；已保存的本机选择继续保留。**[查看完整功能截图](SCREENSHOTS.md)**。
+**本次更新：** 优化登录后的账号推荐，逐次保存浏览进度，切回首页与重启时延续推荐上下文；改善连续换剧、选集与继续观看的稳定性。正剧返回推荐保留当前集数和播放位置。彩色弹幕支持头像、评论赞数，以及范围、密度、透明度和速度调整。**[查看完整功能截图](SCREENSHOTS.md)**。
 
 **安装导航：** [支持的电视品牌](#支持哪些电视品牌和电视盒子) · [各种电视盒子安装教程](#tv-box-install) · [U 盘安装图解](INSTALL.md#usb-install) · [手机 / 电脑无线安装](WIRELESS-INSTALL.md) · [按电视品牌查看教程](INSTALL.md#brand-guides) · [安装失败排查](INSTALL.md#troubleshooting)
 
@@ -241,7 +241,7 @@ Apple TV（tvOS）、Roku、Vega OS 等非 Android 设备不能直接装本 APK�
 3. 使用支持 APK 的文件工具打开安装包，在系统安装器确认安装；首次安装按提示允许**当前文件工具**安装未知来源应用。
 4. 打开红果 TV，无需登录或购买会员，进入推荐或找剧即可开始观看。
 
-文件名示例：`hongguotv-0.9.75-release.apk`。下载 Release 的 APK 附件，不下载 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解压。首次下载直接安装，安装后可在 **设置 → 版本与更新** 获取后续同包名正式版。
+文件名示例：`hongguotv-0.9.101-release.apk`。下载 Release 的 APK 附件，不下载 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解压。首次下载直接安装，安装后可在 **设置 → 版本与更新** 获取后续同包名正式版。
 
 ## 常见问题
 
