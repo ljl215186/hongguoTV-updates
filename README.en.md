@@ -10,7 +10,7 @@ Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming d
 
 **[Download the APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases mirror](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [Report a problem](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · Current version **0.9.108** · Package: `com.hongguo.tv` · Three interface languages
+Android 8.0+ · Current version **0.9.111** · Package: `com.hongguo.tv` · Three interface languages
 
 **Telegram:** [Release channel](https://t.me/HongGuoTVPublish) · [Community and feedback](https://t.me/HongGuoTVJiaoLiu)
 

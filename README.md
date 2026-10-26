@@ -10,7 +10,7 @@
 
 **[免费下载电视版 APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases 备用下载](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [反馈问题](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · 当前版本 **0.9.108** · 可选账号同步 · 真人剧 / 漫剧 · 三语界面
+Android 8.0+ · 当前版本 **0.9.111** · 可选账号同步 · 真人剧 / 漫剧 · 三语界面
 
 **Telegram：** [发布频道 · 版本动态](https://t.me/HongGuoTVPublish) · [交流群 · 使用反馈](https://t.me/HongGuoTVJiaoLiu)
 
@@ -241,7 +241,7 @@ Apple TV（tvOS）、Roku、Vega OS 等非 Android 设备不能直接装本 APK�
 3. 使用支持 APK 的文件工具打开安装包，在系统安装器确认安装；首次安装按提示允许**当前文件工具**安装未知来源应用。
 4. 打开红果 TV，无需登录或购买会员，进入推荐或找剧即可开始观看。
 
-文件名示例：`hongguotv-0.9.108-release.apk`。下载 Release 的 APK 附件，不下载 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解压。首次下载直接安装，安装后可在 **设置 → 版本与更新** 获取后续同包名正式版。
+文件名示例：`hongguotv-0.9.111-release.apk`。下载 Release 的 APK 附件，不下载 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解压。首次下载直接安装，安装后可在 **设置 → 版本与更新** 获取后续同包名正式版。
 
 ## 常见问题
 
