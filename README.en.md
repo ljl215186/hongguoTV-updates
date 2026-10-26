@@ -10,7 +10,7 @@ Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming d
 
 **[Download the APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases mirror](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [Report a problem](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · Current version **0.9.101** · Package: `com.hongguo.tv` · Three interface languages
+Android 8.0+ · Current version **0.9.107** · Package: `com.hongguo.tv` · Three interface languages
 
 **Telegram:** [Release channel](https://t.me/HongGuoTVPublish) · [Community and feedback](https://t.me/HongGuoTVJiaoLiu)
 
@@ -20,7 +20,7 @@ Android 8.0+ · Current version **0.9.101** · Package: `com.hongguo.tv` · Thre
 
 Select a title in your library and press Menu to choose “Show details.” During playback, open “More” to view the show description.
 
-**Latest changes:** improved account recommendations, saved browsing progress and refresh continuity after returning to the home feed or restarting. Improved stability when switching shows, selecting episodes and continuing playback. Returning from an episode preserves the current episode and playback position. Colorful on-screen comments support avatars, like counts and adjustable area, density, opacity and speed. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
+**Latest changes:** recommendations for signed-in viewers and guests skip the 500 most recently shown titles, with pagination isolated by device and account. Fixed mobile search while preserving server pagination and result order. Updated TV launcher artwork and improved rapid switching, preloading and automatic crash-report retries. The minimum supported app version is now **0.9.107 / 116**; older versions must update. Install over your existing app to retain accounts and records. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
 
 This is an unofficial client for personal research, learning and technical exchange. Third-party works and marks belong to their owners. Use within your legal authorization; see the [disclaimer, in Chinese](DISCLAIMER.md).
 
