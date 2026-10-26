@@ -10,7 +10,7 @@
 
 **[免費下載 APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases 備用下載](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [回報問題](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · 目前版本 **0.9.107** · 選用帳號同步 · 真人劇 / 漫劇 · 三語介面
+Android 8.0+ · 目前版本 **0.9.108** · 選用帳號同步 · 真人劇 / 漫劇 · 三語介面
 
 **Telegram：** [發布頻道 · 版本動態](https://t.me/HongGuoTVPublish) · [交流群 · 使用回饋](https://t.me/HongGuoTVJiaoLiu)
 
@@ -20,7 +20,7 @@ Android 8.0+ · 目前版本 **0.9.107** · 選用帳號同步 · 真人劇 / �
 
 在片單中選取作品後按選單鍵，選擇「檢視劇集詳情」；播放時也能透過「更多」查看作品介紹。
 
-**本次更新：** 登入與遊客推薦均增加近期 500 部作品的重複保護，續頁依裝置與帳號隔離；修復手機端搜尋，保留服務端分頁及順序。更新電視桌面圖示，持續改善快速換劇、預載與異常記錄補傳。正式最低版本為 **0.9.107 / 116**，舊版須覆蓋更新，保留原有帳號與記錄。**[全部功能截圖](SCREENSHOTS.md)**。
+**本次更新：** 修復已知問題。正式最低版本為 **0.9.108 / 117**，舊版須覆蓋更新，保留原有帳號與記錄。**[全部功能截圖](SCREENSHOTS.md)**。
 
 **安裝導覽：** [電視品牌](#支援哪些電視品牌和電視盒子) · [電視盒子](#tv-box-install) · [USB 安裝圖解](INSTALL.md#usb-install) · [手機 / 電腦無線安裝](WIRELESS-INSTALL.md) · [品牌教學](INSTALL.md#brand-guides) · [疑難排解](INSTALL.md#troubleshooting)
 
@@ -236,7 +236,7 @@ Apple TV（tvOS）、Roku、Vega OS 等非 Android 裝置不能直接裝本 APK�
 3. 使用支援 APK 的檔案工具開啟安裝包，在系統安裝器確認安裝；首次安裝按提示允許**當前檔案工具**安裝未知來源應用。
 4. 開啟紅果 TV，無需登入或購買會員，進入推薦或找劇即可開始觀看。
 
-檔名示例：`hongguotv-0.9.107-release.apk`。下載 Release 的 APK 附件，不下載 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解壓。首次下載直接安裝，安裝後可在 **設定 → 版本與更新** 獲取後續同包名正式版。
+檔名示例：`hongguotv-0.9.108-release.apk`。下載 Release 的 APK 附件，不下載 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解壓。首次下載直接安裝，安裝後可在 **設定 → 版本與更新** 獲取後續同包名正式版。
 
 ## 常見問題
 
