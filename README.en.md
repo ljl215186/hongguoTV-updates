@@ -6,11 +6,11 @@
 
 **Short dramas and comics on your TV. Choose guest viewing or account sync, like and save shows, and watch with colorful on-screen comments.**
 
-Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming devices. Explore recommendations, rankings, live-action dramas and comics, or search for a title. Watch as a guest, or sign in to your Hongguo account by phone number to load favorites, history and liked-title lists automatically. Like and save shows from the player, merge local records when needed, browse comments and enjoy colorful on-screen messages with round avatars. Episode groups, playback speed and resume controls work with a remote.
+Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming devices. Explore recommendations, rankings, live-action dramas and comics, or search for a title. Guests can watch, like and save shows. Records are saved locally and synced automatically when signed in to a Hongguo account and online. Browse comments and enjoy colorful on-screen messages with round avatars. Episode groups, playback speed and resume controls work with a remote.
 
 **[Download the APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases mirror](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [Report a problem](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · Current version **0.9.111** · Package: `com.hongguo.tv` · Three interface languages
+Android 8.0+ · Current version **0.9.112** · Package: `com.hongguo.tv` · Three interface languages
 
 **Telegram:** [Release channel](https://t.me/HongGuoTVPublish) · [Community and feedback](https://t.me/HongGuoTVJiaoLiu)
 
@@ -20,7 +20,7 @@ Android 8.0+ · Current version **0.9.111** · Package: `com.hongguo.tv` · Thre
 
 Select a title in your library and press Menu to choose “Show details.” During playback, open “More” to view the show description.
 
-**Latest changes:** Bug fixes. The minimum supported app version is now **0.9.108 / 117**; older versions must update. Install over your existing app to retain accounts and records. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
+**Latest changes:** Bug fixes. The minimum supported app version is now **0.9.112 / 121**; older versions must update. Install over your existing app to retain accounts and records. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
 
 This is an unofficial client for personal research, learning and technical exchange. Third-party works and marks belong to their owners. Use within your legal authorization; see the [disclaimer, in Chinese](DISCLAIMER.md).
 
@@ -32,8 +32,8 @@ This is an unofficial client for personal research, learning and technical excha
 |---|---|
 | Free app | No paid app membership or episode-unlock purchase flow. |
 | Optional login | Watch as a guest or sign in to your own Hongguo account by phone number. |
-| Account sync and merging | Automatically load account favorites, history and liked titles; merge local records when needed. |
-| Likes and favorites | Like and save shows from the full-episode player, with status and counts on the buttons. |
+| Account sync and merging | Save favorites, likes and viewing progress locally, then sync when signed in and online; resolve progress conflicts by viewing time. |
+| Likes and favorites | Available to guests and while offline, with immediate local status; total counts come from the service. |
 | Made for a remote | Large posters, visible focus, directional navigation and transparent playback controls. |
 | Continuous viewing | Next-episode preparation, autoplay, resume, quality, speed and picture settings. |
 | Colorful messages and comments | Multicolor upper-half messages with round avatars by default; adjust coverage, transparency, speed and color, and browse more comments with Down. |
@@ -43,10 +43,10 @@ This is an unofficial client for personal research, learning and technical excha
 
 - **For You:** full-screen previews. Up/down changes titles, OK opens the full show, and Back reveals navigation.
 - **Discover:** rankings, live-action/comic filters and search with pagination. A failed request can be retried without losing the current page.
-- **Library:** Login, Continue watching, Favorites and Watch later for guests; account information and liked-title lists are available after login.
+- **Library:** Login, Continue watching, Favorites, Likes and Watch later for guests; Login becomes Account after signing in.
 - **Settings:** default quality, speed, picture mode, autoplay, language, phone backup/restore and updates.
 
-Login is optional. Enter verification codes only on your own device. Account lists are stored separately; failed account requests keep the previous state. QR login is not available, and history or merged local records are not automatically uploaded.
+Login is optional. Enter verification codes only on your own device. Favorites, likes and viewing progress can be saved offline and synced when signed in and online. Guest records are automatically merged only into the first account used to sign in, and account lists stay separate. Repeated actions sync their final state. Progress follows viewing timestamps; uncertain timestamps preserve the cloud record. QR login is not available.
 
 ## New screenshots
 
@@ -136,7 +136,7 @@ Use **Settings → Version and updates** to check, download and install a compat
 
 Updates are checked at each launch and foreground return. Optional updates include Later. A required update cannot be dismissed; an episode already underway may finish before the dialog appears.
 
-Guest favorites, watch-later titles and progress are local. Account lists are stored separately, and local-record merging is manual; history and merged records are not automatically uploaded. Use **Settings → Phone backup and restore** to export/import JSON when changing devices. Language choice stays on the device.
+Favorites, likes and viewing progress are saved locally and synced when signed in and online. Guest records are automatically merged only into the first account used to sign in; watch-later titles remain local. Offline records do not include video downloads. Use **Settings → Phone backup and restore** to export/import JSON when changing devices. Language choice stays on the device.
 
 ## Troubleshooting and feedback
 
