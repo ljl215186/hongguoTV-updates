@@ -10,7 +10,7 @@ Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming d
 
 **[Download the APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases mirror](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [Report a problem](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · Current version **1.0.0** · Package: `com.hongguo.tv` · Three interface languages
+Android 8.0+ · Current version **1.0.5** · Package: `com.hongguo.tv` · Three interface languages
 
 **Telegram:** [Release channel](https://t.me/HongGuoTVPublish) · [Community and feedback](https://t.me/HongGuoTVJiaoLiu)
 
@@ -20,7 +20,7 @@ Android 8.0+ · Current version **1.0.0** · Package: `com.hongguo.tv` · Three 
 
 Select a title in your library and press Menu to choose “Show details.” During playback, open “More” to view the show description.
 
-**Latest changes:** Long-term stable release. Updating is recommended. The 1.0.0 update is optional; the existing minimum version threshold of **0.9.112 / 121** is unchanged. Install over your existing app to retain accounts and records. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
+**Latest changes:** Improved recommendation switching and episode transitions, faster ranking pages and cover loading, and better resource use on low-memory devices. The 1.0.5 update is optional and retains the existing minimum-version policy. Install over your existing app to retain accounts and records. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
 
 This is an unofficial client for personal research, learning and technical exchange. Third-party works and marks belong to their owners. Use within your legal authorization; see the [disclaimer, in Chinese](DISCLAIMER.md).
 
