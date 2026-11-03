@@ -10,7 +10,7 @@
 
 **[免费下载电视版 APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases 备用下载](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [反馈问题](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · 当前版本 **1.0.5** · 可选账号同步 · 真人剧 / 漫剧 · 三语界面
+Android 8.0+ · 当前版本 **1.0.20** · 可选账号同步 · 真人剧 / 漫剧 · 三语界面
 
 **Telegram：** [发布频道 · 版本动态](https://t.me/HongGuoTVPublish) · [交流群 · 使用反馈](https://t.me/HongGuoTVJiaoLiu)
 
@@ -20,7 +20,7 @@ Android 8.0+ · 当前版本 **1.0.5** · 可选账号同步 · 真人剧 / 漫�
 
 在片单中选中作品后按菜单键，选择“查看剧集详情”；播放时也可通过“更多”查看作品介绍。
 
-**本次更新：** 优化推荐切换与剧集续播体验，提升排行榜翻页和封面加载速度，优化低内存设备的资源使用。1.0.5 为可选更新，保留既有最低版本策略；覆盖安装保留原有账号和记录。**[查看完整功能截图](SCREENSHOTS.md)**。
+**本次更新：** 新增系列剧快速切换与自动续播，播放倍速最高3倍；优化推荐换片、选集与连续播放的切换保护，完善启动异常恢复和稳定性诊断；统一详情页加载背景，搜索框补充“不支持拼音搜索”提示。1.0.20 为可选更新；覆盖安装保留原有账号和记录。**[查看完整功能截图](SCREENSHOTS.md)**。
 
 **安装导航：** [支持的电视品牌](#支持哪些电视品牌和电视盒子) · [各种电视盒子安装教程](#tv-box-install) · [U 盘安装图解](INSTALL.md#usb-install) · [手机 / 电脑无线安装](WIRELESS-INSTALL.md) · [按电视品牌查看教程](INSTALL.md#brand-guides) · [安装失败排查](INSTALL.md#troubleshooting)
 
