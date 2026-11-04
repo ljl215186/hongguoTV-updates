@@ -10,7 +10,7 @@ Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming d
 
 **[Download the APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases mirror](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [Report a problem](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · Current version **1.0.25** · Package: `com.hongguo.tv` · Three interface languages
+Android 8.0+ · Current version **1.0.31** · Package: `com.hongguo.tv` · Three interface languages
 
 **Telegram:** [Release channel](https://t.me/HongGuoTVPublish) · [Community and feedback](https://t.me/HongGuoTVJiaoLiu)
 
@@ -20,7 +20,7 @@ Android 8.0+ · Current version **1.0.25** · Package: `com.hongguo.tv` · Three
 
 Select a title in your library and press Menu to choose “Show details.” During playback, open “More” to view the show description.
 
-**Latest changes:** Choose from four on-screen comment text sizes: small, standard, large and extra large. Improved selection of compatible video sources and automatic recovery from reading or decoding errors, preserving the episode, position, playback speed and pause state. Fixed a persistent black screen when returning to recommendations after switching apps, and improved playback diagnostics. Version 1.0.25 is an optional update. Install over your existing app to retain accounts and records. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
+**Latest changes:** New reservations under My Library for signed-in Hongguo accounts, with released and upcoming shows. Browse by category, page or remote, refresh the list, and return from show details to your selection and position. Upcoming shows display available information and the expected release date. Version 1.0.31 is an optional update. Install over your existing app to retain accounts and records. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
 
 This is an unofficial client for personal research, learning and technical exchange. Third-party works and marks belong to their owners. Use within your legal authorization; see the [disclaimer, in Chinese](DISCLAIMER.md).
 
