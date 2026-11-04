@@ -10,7 +10,7 @@
 
 **[免费下载电视版 APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases 备用下载](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [反馈问题](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · 当前版本 **1.0.25** · 可选账号同步 · 真人剧 / 漫剧 · 三语界面
+Android 8.0+ · 当前版本 **1.0.31** · 可选账号同步 · 真人剧 / 漫剧 · 三语界面
 
 **Telegram：** [发布频道 · 版本动态](https://t.me/HongGuoTVPublish) · [交流群 · 使用反馈](https://t.me/HongGuoTVJiaoLiu)
 
@@ -20,7 +20,7 @@ Android 8.0+ · 当前版本 **1.0.25** · 可选账号同步 · 真人剧 / 漫
 
 在片单中选中作品后按菜单键，选择“查看剧集详情”；播放时也可通过“更多”查看作品介绍。
 
-**本次更新：** 新增小、标准、大、超大四档弹幕字号；优化兼容片源选择，读取或解码错误时自动尝试备用地址、其他编码和合适清晰度，保留当前集数、进度、倍速及暂停状态；修复返回推荐后前后台切换可能持续黑屏的问题，完善播放诊断。1.0.25 为可选更新；覆盖安装保留原有账号和记录。**[查看完整功能截图](SCREENSHOTS.md)**。
+**本次更新：** 新增“我的-预约”，登录红果账号后查看已上线与待上线的预约作品；支持分类、分页、刷新与遥控器浏览，查看剧集详情后保留选择和位置，待上线作品显示已有资料与预计上线时间。1.0.31 为可选更新；覆盖安装保留原有账号和记录。**[查看完整功能截图](SCREENSHOTS.md)**。
 
 **安装导航：** [支持的电视品牌](#支持哪些电视品牌和电视盒子) · [各种电视盒子安装教程](#tv-box-install) · [U 盘安装图解](INSTALL.md#usb-install) · [手机 / 电脑无线安装](WIRELESS-INSTALL.md) · [按电视品牌查看教程](INSTALL.md#brand-guides) · [安装失败排查](INSTALL.md#troubleshooting)
 
@@ -241,7 +241,7 @@ Apple TV（tvOS）、Roku、Vega OS 等非 Android 设备不能直接装本 APK�
 3. 使用支持 APK 的文件工具打开安装包，在系统安装器确认安装；首次安装按提示允许**当前文件工具**安装未知来源应用。
 4. 打开红果 TV，无需登录或购买会员，进入推荐或找剧即可开始观看。
 
-文件名示例：`hongguotv-1.0.25-release.apk`。下载 Release 的 APK 附件，不下载 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解压。首次下载直接安装，安装后可在 **设置 → 版本与更新** 获取后续同包名正式版。
+文件名示例：`hongguotv-1.0.31-release.apk`。下载 Release 的 APK 附件，不下载 `Source code (zip)` 或 `Source code (tar.gz)`；APK 不需要解压。首次下载直接安装，安装后可在 **设置 → 版本与更新** 获取后续同包名正式版。
 
 ## 常见问题
 
