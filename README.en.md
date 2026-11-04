@@ -10,7 +10,7 @@ Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming d
 
 **[Download the APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases mirror](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [Report a problem](https://github.com/ljl215186/hongguoTV-updates/issues)
 
-Android 8.0+ · Current version **1.0.20** · Package: `com.hongguo.tv` · Three interface languages
+Android 8.0+ · Current version **1.0.25** · Package: `com.hongguo.tv` · Three interface languages
 
 **Telegram:** [Release channel](https://t.me/HongGuoTVPublish) · [Community and feedback](https://t.me/HongGuoTVJiaoLiu)
 
@@ -20,7 +20,7 @@ Android 8.0+ · Current version **1.0.20** · Package: `com.hongguo.tv` · Three
 
 Select a title in your library and press Menu to choose “Show details.” During playback, open “More” to view the show description.
 
-**Latest changes:** Quickly switch between related series and continue automatically into the next season. Playback speed now reaches 3×. Improved safeguards for recommendation and episode transitions, startup recovery and stability diagnostics. Show details now use a consistent loading background, and search clarifies that Pinyin input is unsupported. Version 1.0.20 is an optional update. Install over your existing app to retain accounts and records. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
+**Latest changes:** Choose from four on-screen comment text sizes: small, standard, large and extra large. Improved selection of compatible video sources and automatic recovery from reading or decoding errors, preserving the episode, position, playback speed and pause state. Fixed a persistent black screen when returning to recommendations after switching apps, and improved playback diagnostics. Version 1.0.25 is an optional update. Install over your existing app to retain accounts and records. See the **[complete screenshot gallery](SCREENSHOTS.md)**.
 
 This is an unofficial client for personal research, learning and technical exchange. Third-party works and marks belong to their owners. Use within your legal authorization; see the [disclaimer, in Chinese](DISCLAIMER.md).
 
@@ -36,7 +36,7 @@ This is an unofficial client for personal research, learning and technical excha
 | Likes and favorites | Available to guests and while offline, with immediate local status; total counts come from the service. |
 | Made for a remote | Large posters, visible focus, directional navigation and transparent playback controls. |
 | Continuous viewing | Next-episode preparation, autoplay, resume, quality, speed and picture settings. |
-| Colorful messages and comments | Multicolor upper-half messages with round avatars by default; adjust coverage, transparency, speed and color, and browse more comments with Down. |
+| Colorful messages and comments | Multicolor upper-half messages with round avatars by default; choose four text sizes and adjust coverage, transparency, speed and color, and browse more comments with Down. |
 | Three languages | Simplified Chinese, Traditional Chinese and English in Settings → Language. |
 
 ## Four main sections
