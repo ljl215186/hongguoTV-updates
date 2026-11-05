@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1016">
+  <title>红果TV · 免费追短剧，大屏看漫剧</title>
+  <meta name="description" content="红果TV 是为 Android 电视和电视盒子打造的免费短剧客户端。真人短剧、漫剧、热门榜单、彩色弹幕与可选账号同步，用遥控器轻松追剧。">
+  <link rel="canonical" href="https://hongguotv.curatedlifefinds.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="红果TV · 免费追短剧，大屏看漫剧">
+  <meta property="og:description" content="把精彩带到客厅。为 Android 电视和电视盒子打造的短剧体验。">
+  <meta property="og:url" content="https://hongguotv.curatedlifefinds.com/">
+  <meta property="og:image" content="https://hongguotv.curatedlifefinds.com/assets/discovery.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/discovery.webp" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="header">
+    <div class="container nav">
+      <a href="#" class="brand" aria-label="红果TV 首页"><span class="brand-symbol"><img src="assets/logo.png" width="880" height="256" alt=""></span><span>红果<span class="brand-tv">TV</span></span></a>
+      <button class="nav-toggle" type="button" aria-label="展开导航" aria-controls="nav-links" aria-expanded="false"><span></span><span></span></button>
+      <nav id="nav-links" class="nav-links" aria-label="主导航">
+        <a href="#experience">功能体验</a><a href="#screenshots">界面预览</a><a href="#install">安装指南</a><a href="#community">交流反馈</a>
+        <a class="nav-github" href="https://github.com/ILikeVideo/HongGuoTV" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> 为 ANDROID 电视而生</p>
+        <h1 id="hero-title">免费追短剧，<br><span>大屏看漫剧。</span></h1>
+        <p class="hero-description">把精彩带到客厅。真人短剧与漫剧、热门榜单、彩色弹幕，一支遥控器就能轻松追剧。</p>
+        <div class="hero-actions"><a class="button primary" href="https://hongguotv-egb.pages.dev/" target="_blank" rel="noopener noreferrer">免费下载 APK <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 17v4h14v-4"/></svg></a><a class="button secondary" href="#install">安装到电视 <span aria-hidden="true">→</span></a></div>
+        <p class="hero-meta">Android 8.0+ <span>·</span> 电视 / 盒子 <span>·</span> 可选登录</p>
+      </div>
+      <figure class="hero-product">
+        <div class="tv"><img src="assets/discovery.webp" width="1440" height="810" fetchpriority="high" alt="红果TV 找剧页，展示推荐榜单与大字海报"><span class="tv-led" aria-hidden="true"></span></div>
+        <div class="tv-base" aria-hidden="true"></div>
+        <figcaption><span class="mini-dot" aria-hidden="true"></span> 真实应用界面 <span class="caption-divider">/</span> 为遥控器重新设计</figcaption>
+      </figure>
+    </section>
+    <section id="experience" class="experience container" aria-label="功能体验">
+      <article><span class="feature-index">01 / 轻松发现</span><h2>下一部好剧，<br>不必费心找。</h2><p>推荐流、热门排行榜、真人剧与漫剧筛选，还有支持演员、角色等资料展示的搜索。</p></article>
+      <article><span class="feature-index">02 / 连贯追剧</span><h2>坐下来，<br>就好好看一会儿。</h2><p>分组选集、系列剧、自动连播与断点续播。清晰度、最高 3 倍速和画面模式随手调整。</p></article>
+      <article><span class="feature-index">03 / 自在互动</span><h2>喜欢的剧，<br>留在你的片单里。</h2><p>游客也能收藏、点赞与保存进度。登录本人红果账号并联网后，自动同步追剧记录。</p></article>
+    </section>
+    <section id="screenshots" class="showcase section container" aria-labelledby="showcase-title">
+      <div class="section-heading"><div><p class="eyebrow">大屏，也要顺手</p><h2 id="showcase-title">每一步，都有舒服的位置。</h2></div><p>方向键、OK、返回。<br>常用操作，一支遥控器就够。</p></div>
+      <div class="showcase-tabs" role="tablist" aria-label="界面预览">
+        <button id="tab-discovery" class="showcase-tab" type="button" role="tab" aria-selected="true" aria-controls="screen-panel" tabindex="0" data-screen="discovery">找剧与榜单</button>
+        <button id="tab-playback" class="showcase-tab" type="button" role="tab" aria-selected="false" aria-controls="screen-panel" tabindex="-1" data-screen="playback">播放控制</button>
+        <button id="tab-danmaku" class="showcase-tab" type="button" role="tab" aria-selected="false" aria-controls="screen-panel" tabindex="-1" data-screen="danmaku">彩色弹幕</button>
+        <button id="tab-episodes" class="showcase-tab" type="button" role="tab" aria-selected="false" aria-controls="screen-panel" tabindex="-1" data-screen="episodes">分组选集</button>
+      </div>
+      <div id="screen-panel" class="screen-panel" role="tabpanel" aria-labelledby="tab-discovery" tabindex="0">
+        <button type="button" class="screen-expand" aria-label="放大当前界面截图"><img id="screen-image" src="assets/discovery.webp" width="1440" height="810" loading="lazy" alt="找剧页的热门榜单和海报网格"><span class="expand-hint">查看大图 <span aria-hidden="true">↗</span></span></button>
+        <div class="screen-caption"><div><h3 id="screen-title">想找什么，都有入口。</h3><p id="screen-description">多个热门榜单，搭配真人剧 / 漫剧分类筛选，浏览与搜索各得其所。</p></div><span id="screen-count" aria-hidden="true">01 / 04</span></div>
+      </div>
+      <p class="screenshot-note">截图来自 0.9.74 / 0.9.75 测试版本，展示典型操作；实际界面以当前版本为准。<a href="https://github.com/ILikeVideo/HongGuoTV/blob/main/SCREENSHOTS.md" target="_blank" rel="noopener noreferrer">查看完整截图集 ↗</a></p>
+    </section>
+    <section class="details-section container" aria-label="更多体验">
+      <div class="detail-item"><span class="detail-mark" aria-hidden="true">Aa</span><div><h3>大字，也能自己调整。</h3><p>彩色弹幕支持四档字号、全屏 / 半屏、速度与透明度。简体中文、繁體中文、English 三语界面随时切换。</p></div></div>
+      <div class="detail-item"><span class="detail-mark" aria-hidden="true">↺</span><div><h3>没看完的，下次接着看。</h3><p>收藏、点赞和观看记录先保存在本机，联网后补传。稍后看留在本机，给下一次的闲暇留个位置。</p></div></div>
+    </section>
+    <section id="install" class="install section container" aria-labelledby="install-title">
+      <div class="install-intro"><p class="eyebrow">把精彩装进客厅</p><h2 id="install-title">从下载到开播，<br>只需三步。</h2><p>适用于 Android 8.0 及以上、<br>允许安装本地 APK 的电视和盒子。</p><a class="text-link" href="https://github.com/ILikeVideo/HongGuoTV/blob/main/INSTALL.md" target="_blank" rel="noopener noreferrer">查看分品牌安装教程 <span aria-hidden="true">↗</span></a></div>
+      <ol class="install-steps">
+        <li><span class="step-number">01</span><div><h3>下载电视版 APK</h3><p>从下载站获取最新正式版。也可以使用 GitHub Releases 备用下载。</p><div class="inline-links"><a href="https://hongguotv-egb.pages.dev/" target="_blank" rel="noopener noreferrer">进入下载站 ↗</a><a href="https://github.com/ILikeVideo/HongGuoTV/releases/latest" target="_blank" rel="noopener noreferrer">GitHub 备用下载 ↗</a></div></div></li>
+        <li><span class="step-number">02</span><div><h3>传到电视或盒子</h3><p>复制到 U 盘，插入电视后打开文件管理器；也可以从手机或电脑无线传输。</p><a href="https://github.com/ILikeVideo/HongGuoTV/blob/main/WIRELESS-INSTALL.md" target="_blank" rel="noopener noreferrer">无线安装方法 ↗</a></div></li>
+        <li><span class="step-number">03</span><div><h3>授权安装，打开红果TV</h3><p>按设备提示允许安装应用。覆盖安装可保留数据，首次使用可直接以游客身份观看。</p></div></li>
+      </ol>
+    </section>
+    <section class="faq container" aria-labelledby="faq-title"><h2 id="faq-title">开始之前，你可能想知道</h2><div class="faq-list">
+      <details><summary>我的电视可以安装吗？</summary><p>需要 Android 8.0（API 26）及以上，并允许安装本地 APK。不同品牌和型号的系统、安装权限与解码能力可能不同。三星 Tizen、LG webOS、VIDAA、Roku 等非 Android 系统不能直接安装，可搭配兼容的 Android 盒子使用。<a href="https://github.com/ILikeVideo/HongGuoTV/blob/main/INSTALL.md#compatibility" target="_blank" rel="noopener noreferrer">查看兼容说明 ↗</a></p></details>
+      <details><summary>需要登录或购买会员吗？</summary><p>App 免费下载，不设置付费解锁和会员购买流程。游客可以直接观看、收藏和点赞；登录本人红果账号并联网后，可同步收藏、点赞与观看记录。</p></details>
+      <details><summary>安装失败，或播放时遇到问题怎么办？</summary><p>先核对 Android 版本、剩余存储空间与安装权限。播放效果还取决于设备、网络和内容源，可尝试调整清晰度或重试。反馈时附上设备型号、App 版本、具体操作和错误截图，方便定位。<a href="https://github.com/ILikeVideo/HongGuoTV/issues" target="_blank" rel="noopener noreferrer">提交问题 ↗</a></p></details>
+    </div></section>
+    <section id="community" class="community container" aria-labelledby="community-title"><div><p class="eyebrow">保持联系</p><h2 id="community-title">一起，让大屏体验更好。</h2><p>在 Telegram 获取版本消息、分享使用体验。<br>遇到问题，也欢迎带着设备信息来反馈。</p></div><div class="community-actions"><a class="button primary" href="https://t.me/HongGuoTVPublish" target="_blank" rel="noopener noreferrer">Telegram 发布频道 <span aria-hidden="true">↗</span></a><a class="button secondary" href="https://t.me/HongGuoTVJiaoLiu" target="_blank" rel="noopener noreferrer">加入 Telegram 交流群 <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="footer container"><div class="footer-top"><a class="brand" href="#"><span class="brand-symbol"><img src="assets/logo.png" width="880" height="256" alt=""></span><span>红果<span class="brand-tv">TV</span></span></a><nav aria-label="页脚导航"><a href="https://github.com/ILikeVideo/HongGuoTV" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://github.com/ILikeVideo/HongGuoTV/releases" target="_blank" rel="noopener noreferrer">版本记录</a><a href="https://github.com/ILikeVideo/HongGuoTV/blob/main/DISCLAIMER.md" target="_blank" rel="noopener noreferrer">免责声明</a></nav></div><p>独立开发的非官方客户端，用于个人研究、学习与技术交流。第三方作品与标识归相应权利人所有，请在合法授权范围内使用。</p><p class="footer-credit">红果TV · 免费追短剧，大屏看漫剧。<span>Hosted on GitHub Pages</span></p></footer>
+  <dialog id="image-dialog" aria-label="应用界面大图"><button class="dialog-close" type="button" aria-label="关闭大图">关闭 <span aria-hidden="true">×</span></button><img id="dialog-image" src="assets/discovery.webp" width="1440" height="810" alt=""><p>应用界面预览 · 按 Esc 或点击空白处关闭</p></dialog>
+</body>
+</html>
