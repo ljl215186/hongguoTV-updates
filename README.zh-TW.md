@@ -8,7 +8,7 @@
 
 紅果TV 面向 Android 電視及電視盒子，整合真人短劇、漫劇、排行榜、全庫搜尋與大螢幕播放。遊客可直接觀看、收藏及按讚；記錄先保存在本機，以手機號登入本人紅果帳號並連網後自動同步。圓形頭像彩色彈幕、評論列表、分組選集、倍速及斷點續播，讓遙控器操作更順手。
 
-**[免費下載 APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases 備用下載](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [回報問題](https://github.com/ljl215186/hongguoTV-updates/issues)
+**[免費下載 APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases 備用下載](https://github.com/ILikeVideo/HongGuoTV/releases/latest) · [回報問題](https://github.com/ILikeVideo/HongGuoTV/issues)
 
 Android 8.0+ · 目前版本 **1.0.31** · 選用帳號同步 · 真人劇 / 漫劇 · 三語介面
 
@@ -231,7 +231,7 @@ Apple TV（tvOS）、Roku、Vega OS 等非 Android 裝置不能直接裝本 APK�
 
 **沒有 U 盤也能安裝：** 電視自帶傳檔案、品牌手機助手、當貝遠端安裝、Send Files to TV、電視直接下載等方法，見 [無線安裝圖文教程](WIRELESS-INSTALL.md)。iPhone 使用者可優先檢視 [瀏覽器上傳方案](WIRELESS-INSTALL.md#iphone)；普通映象 / 影片投屏不等於傳 APK 安裝。
 
-1. 開啟 **[紅果 TV 下載頁](https://hongguotv-egb.pages.dev/)**，下載帶版本號的正式 APK；也可從 [GitHub Releases](https://github.com/ljl215186/hongguoTV-updates/releases/latest) 下載。
+1. 開啟 **[紅果 TV 下載頁](https://hongguotv-egb.pages.dev/)**，下載帶版本號的正式 APK；也可從 [GitHub Releases](https://github.com/ILikeVideo/HongGuoTV/releases/latest) 下載。
 2. 將 APK 放入 U 盤根目錄，插入電視 / 盒子 USB 介面；沒有 USB 介面時，可使用裝置支援的區域網檔案傳輸工具。
 3. 使用支援 APK 的檔案工具開啟安裝包，在系統安裝器確認安裝；首次安裝按提示允許**當前檔案工具**安裝未知來源應用。
 4. 開啟紅果 TV，無需登入或購買會員，進入推薦或找劇即可開始觀看。
@@ -264,4 +264,4 @@ App 免費提供，不設定會員購買和付費解鎖流程。遊客可以直�
 
 此倉庫提供紅果 TV 正式安裝包、版本更新、使用說明和介面截圖。
 
-**[立即免費下載紅果 TV](https://hongguotv-egb.pages.dev/)** · [檢視版本更新](https://github.com/ljl215186/hongguoTV-updates/releases) · [提交使用反饋](https://github.com/ljl215186/hongguoTV-updates/issues)
+**[立即免費下載紅果 TV](https://hongguotv-egb.pages.dev/)** · [檢視版本更新](https://github.com/ILikeVideo/HongGuoTV/releases) · [提交使用反饋](https://github.com/ILikeVideo/HongGuoTV/issues)

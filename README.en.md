@@ -8,7 +8,7 @@
 
 Hongguo TV is a free client for Android TVs, TV boxes and compatible streaming devices. Explore recommendations, rankings, live-action dramas and comics, or search for a title. Guests can watch, like and save shows. Records are saved locally and synced automatically when signed in to a Hongguo account and online. Browse comments and enjoy colorful on-screen messages with round avatars. Episode groups, playback speed and resume controls work with a remote.
 
-**[Download the APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases mirror](https://github.com/ljl215186/hongguoTV-updates/releases/latest) · [Report a problem](https://github.com/ljl215186/hongguoTV-updates/issues)
+**[Download the APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases mirror](https://github.com/ILikeVideo/HongGuoTV/releases/latest) · [Report a problem](https://github.com/ILikeVideo/HongGuoTV/issues)
 
 Android 8.0+ · Current version **1.0.31** · Package: `com.hongguo.tv` · Three interface languages
 
@@ -146,6 +146,6 @@ Favorites, likes and viewing progress are saved locally and synced when signed i
 - **No app icon:** look in the system's installed-apps list.
 - **Playback buffers:** check the connection, lower quality, retry or choose another show.
 
-See the [full troubleshooting table, in Chinese](INSTALL.md#troubleshooting). When opening an [issue](https://github.com/ljl215186/hongguoTV-updates/issues), include the app version, model, Android version and steps to reproduce. Do not share passwords or private backups.
+See the [full troubleshooting table, in Chinese](INSTALL.md#troubleshooting). When opening an [issue](https://github.com/ILikeVideo/HongGuoTV/issues), include the app version, model, Android version and steps to reproduce. Do not share passwords or private backups.
 
-**[Download Hongguo TV](https://hongguotv-egb.pages.dev/)** · [Release history](https://github.com/ljl215186/hongguoTV-updates/releases)
+**[Download Hongguo TV](https://hongguotv-egb.pages.dev/)** · [Release history](https://github.com/ILikeVideo/HongGuoTV/releases)
