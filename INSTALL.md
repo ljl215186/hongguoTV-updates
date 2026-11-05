@@ -1,8 +1,10 @@
 # 红果 TV 安卓电视安装图文教程｜小米、海信、TCL、创维等品牌
 
+**[打开网页版完整安装教程](https://hongguotv.curatedlifefinds.com/install/)**：支持品牌搜索、设备分类，涵盖电视、盒子、投影仪及 U 盘、品牌助手和无线传输。
+
 **免费下载安装，无需登录，无需 App 会员。** 本页帮助你先确认电视是否兼容，再通过 U 盘或设备支持的文件传输方式安装红果 TV。
 
-[免费下载正式 APK](https://hongguotv-egb.pages.dev/) · [GitHub 备用下载](https://github.com/ILikeVideo/HongGuoTV/releases/latest) · [电视盒子分品牌教程](README.md#tv-box-install) · [无线安装图文教程](WIRELESS-INSTALL.md) · [返回功能介绍与界面截图](README.md)
+[免费下载正式 APK](https://hongguotv-egb.pages.dev/download/latest.apk) · [GitHub 备用下载](https://github.com/ILikeVideo/HongGuoTV/releases/latest) · [电视盒子分品牌教程](README.md#tv-box-install) · [无线安装图文教程](WIRELESS-INSTALL.md) · [返回功能介绍与界面截图](README.md)
 
 说明核对日期：**2026-10-20**。教程根据厂商公开说明整理；系统菜单会随型号、地区和固件变化。三张配图为本项目制作的**操作示意图，不是各品牌系统截图**；厂商原图与完整步骤可打开对应官方链接查看。
 
@@ -31,7 +33,7 @@
 
 ### 第一步：下载正式 APK
 
-在电脑打开 **[红果 TV 下载页](https://hongguotv-egb.pages.dev/)**，下载正式版。GitHub 用户也可进入 [Releases](https://github.com/ILikeVideo/HongGuoTV/releases/latest)，展开 **Assets / 资源**，点击带版本号的 `.apk` 附件。
+在电脑点击 **[直接下载最新正式 APK](https://hongguotv-egb.pages.dev/download/latest.apk)**，保存安装包。该固定地址会自动选择当前正式版。GitHub 用户也可进入 [Releases](https://github.com/ILikeVideo/HongGuoTV/releases/latest)，展开 **Assets / 资源**，点击带版本号的 `.apk` 附件。
 
 - 正确示例：`hongguotv-0.9.42-release.apk`，安装新版时以下载页版本为准。
 - `Source code (zip)`、`Source code (tar.gz)` 是 GitHub 自动生成的仓库压缩包，不能用于电视安装。
@@ -249,4 +251,4 @@ README 已补充 **[电视盒子分品牌安装教程](README.md#tv-box-install)
 
 U 盘与无线安装原创示意图设计源文件：[Figma · 红果 TV 电视安装图解](https://www.figma.com/design/I9JyZD6L7p9KpesD1uFpES)。图解与本仓库界面截图随文档保存，不依赖第三方图片外链。安装和使用前请阅读 [研究学习用途与版权免责声明](DISCLAIMER.md)。
 
-**[下载免费红果 TV](https://hongguotv-egb.pages.dev/)** · [查看全部应用截图](README.md#界面实拍从找剧到播放) · [反馈安装问题](https://github.com/ILikeVideo/HongGuoTV/issues)
+**[下载免费红果 TV](https://hongguotv-egb.pages.dev/download/latest.apk)** · [查看全部应用截图](README.md#界面实拍从找剧到播放) · [反馈安装问题](https://github.com/ILikeVideo/HongGuoTV/issues)

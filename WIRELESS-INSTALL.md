@@ -1,8 +1,10 @@
 # 红果 TV 无线安装图文教程｜手机传 APK、电脑远程安装与文件快传
 
+**[打开网页版完整安装与传输教程](https://hongguotv.curatedlifefinds.com/install/)**：按设备和现有工具选择方法，查看图解与排查步骤。
+
 没有 U 盘，也可以通过电视自带文件传输、品牌手机助手或第三方传输工具安装红果 TV。本页按你已经具备的设备和功能选择方法，适用于**允许安装 APK 的 Android 8.0+ 电视、盒子及投影仪**。
 
-[下载正式 APK](https://hongguotv-egb.pages.dev/) · [电视品牌与 U 盘教程](INSTALL.md) · [功能与界面截图](README.md) · [免责声明](DISCLAIMER.md)
+[下载正式 APK](https://hongguotv-egb.pages.dev/download/latest.apk) · [电视品牌与 U 盘教程](INSTALL.md) · [功能与界面截图](README.md) · [免责声明](DISCLAIMER.md)
 
 资料核对日期：**2026-10-20**。配图为 Figma 制作的操作示意，不是某品牌或工具的实测截图。各工具的系统、地区、收费和权限要求以开发者当前说明为准；本文不表示已在每款电视完成验收。
 
@@ -27,7 +29,7 @@
 <a id="prepare"></a>
 ## 开始前准备
 
-1. 手机 / 电脑打开 [红果 TV 下载页](https://hongguotv-egb.pages.dev/)，下载 `hongguotv-0.9.42-release.apk` 或页面列出的更新版本，不下载 Source code 压缩包，不解压 APK。
+1. 手机 / 电脑打开 [红果 TV 下载页](https://hongguotv-egb.pages.dev/download/latest.apk)，下载 `hongguotv-0.9.42-release.apk` 或页面列出的更新版本，不下载 Source code 压缩包，不解压 APK。
 2. 确认电视与发送设备能在同一个家庭局域网通信。电视接网线、手机接 Wi-Fi 也可以，但不能被访客网络或设备隔离阻断；不要求一定同为 2.4 GHz 或 5 GHz。
 3. **第三方互传工具必须先在电视上可用。** 可从设备允许的应用商店安装，或先通过品牌官方助手、浏览器、U 盘装好工具。不能只在手机安装工具，就让没有接收端的电视凭空收到 APK。
 4. 使用你自己电视显示的接收地址、验证码与保存目录。图中 IP 和端口只是示例；传完后关闭接收 / 共享功能。
@@ -116,12 +118,12 @@
 <a id="direct-download"></a>
 ## 方法五：电视直接下载 / Downloader by AFTVnews
 
-1. 如果电视已有支持 APK 下载的浏览器，在地址栏输入 **`https://hongguotv-egb.pages.dev/`**。
-2. 页面加载后点击“下载 Android TV 安装包”，等待下载结束，再从下载记录打开 APK。
-3. 如果使用 **Downloader by AFTVnews**，在其地址输入位置填写上述完整下载页网址，打开页面后点击安装包下载；按工具和系统提示确认安装。
+1. 如果电视已有支持 APK 下载的浏览器，在地址栏输入 **`https://hongguotv-egb.pages.dev/download/latest.apk`**。
+2. 该地址会直接下载最新正式 APK；等待下载结束，再从下载记录打开安装包，不需要进入下载网页。
+3. 如果使用 **Downloader by AFTVnews**，在其地址输入位置填写上述完整地址，按工具提示下载，再在电视确认安装。
 4. 若系统阻止安装，按提示允许当前浏览器 / Downloader 安装应用，再返回安装包继续。
 
-Downloader 的开发者明确支持 Google TV / Android TV 的网址下载。这里不提供或编造数字下载码，也不依赖某个临时 APK 直链；以后版本变化仍从下载页选择。[Downloader 开发者说明](https://www.aftvnews.com/downloader/)
+Downloader 的开发者明确支持 Google TV / Android TV 的网址下载。这里不提供或编造数字下载码；固定下载地址随正式版更新自动选择安装包，不会选择 Beta。[Downloader 开发者说明](https://www.aftvnews.com/downloader/)
 
 若浏览器只能显示网页、无法保存或打开 APK，换用其他支持文件安装的方法。
 

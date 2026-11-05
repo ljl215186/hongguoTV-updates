@@ -4,13 +4,15 @@
 
 **[项目介绍 · 功能与界面预览](https://hongguotv.curatedlifefinds.com/)**
 
+**[网页版完整安装教程：电视、盒子、投影仪与各种传输方式](https://hongguotv.curatedlifefinds.com/install/)**
+
 <img src="screenshots/hongguo-logo.png" width="220" height="64" alt="红果TV 标识">
 
 **免费追短剧，大屏看漫剧。可选登录同步，收藏点赞随手操作，彩色弹幕一起看。**
 
 红果TV 是面向 Android 电视、电视盒子的免费短剧客户端，集真人短剧、漫剧、热门排行榜、全库搜索与大屏播放于一体。游客可直接观看、收藏和点赞；记录先保存在本机，手机号登录本人红果账号并联网后自动同步。带圆形头像的彩色弹幕、评论列表、分组选集、倍速与断点续播，让遥控器操作更顺手。
 
-**[免费下载电视版 APK](https://hongguotv-egb.pages.dev/)** · [GitHub Releases 备用下载](https://github.com/ILikeVideo/HongGuoTV/releases/latest) · [反馈问题](https://github.com/ILikeVideo/HongGuoTV/issues)
+**[免费下载电视版 APK](https://hongguotv-egb.pages.dev/download/latest.apk)** · [GitHub Releases 备用下载](https://github.com/ILikeVideo/HongGuoTV/releases/latest) · [反馈问题](https://github.com/ILikeVideo/HongGuoTV/issues)
 
 Android 8.0+ · 当前版本 **1.0.31** · 可选账号同步 · 真人剧 / 漫剧 · 三语界面
 
@@ -133,7 +135,7 @@ Android 8.0+ · 当前版本 **1.0.31** · 可选账号同步 · 真人剧 / 漫
 
 ### 安装前准备：只下载 APK，不解压
 
-1. 打开 **[红果 TV 免费下载页](https://hongguotv-egb.pages.dev/)**，保存正式版 `.apk` 文件；GitHub 下载时选择 APK 附件，不选 Source code。
+1. 打开 **[红果 TV 免费下载页](https://hongguotv-egb.pages.dev/download/latest.apk)**，保存正式版 `.apk` 文件；GitHub 下载时选择 APK 附件，不选 Source code。
 2. 有 USB 接口：把 APK 复制到 U 盘根目录，插入**盒子**的 USB 接口，再使用盒子的文件工具打开。文件工具只显示影片时，切到“全部文件 / 安装包”。
 3. 没有 USB 接口：盒子与手机 / 电脑连接同一局域网，按下方品牌教程选择文件传输或直接下载。
 4. 打开 APK 后，若系统询问权限，允许**当前文件工具 / 下载工具**安装未知应用，再返回安装器确认安装。权限入口随固件不同，以本机提示为准；详见 [Android TV 官方应用安全说明](https://support.google.com/androidtv/answer/12188351?hl=zh-Hans)。
@@ -205,7 +207,7 @@ Android 8.0+ · 当前版本 **1.0.31** · 可选账号同步 · 真人剧 / 漫
 以下针对**有独立应用界面、可安装应用的 Android TV / Google TV 设备**，按本机 Android 版本和安装权限判断。
 
 1. **Android 手机传输：** 两端从各自商店安装 Send Files to TV；电视端选 **Receive**，手机端选 **Send**，选择 APK 和目标设备，接收后打开 APK 安装。[工具开发者的 Google Play 页面](https://play.google.com/store/apps/details?id=com.yablio.sendfilestotv&hl=zh)
-2. **直接下载：** 本机商店提供 Downloader 时，安装后输入完整地址 **`https://hongguotv-egb.pages.dev/`**，进入页面下载 APK，再按提示允许该工具安装应用。[Downloader 开发者说明](https://www.aftvnews.com/downloader/)
+2. **直接下载：** 本机商店提供 Downloader 时，安装后输入完整地址 **`https://hongguotv-egb.pages.dev/download/latest.apk`**，进入页面下载 APK，再按提示允许该工具安装应用。[Downloader 开发者说明](https://www.aftvnews.com/downloader/)
 3. 安装后从应用列表打开；未出现图标时，可在系统设置的已安装应用中查找并启动。
 
 无线传输不需要另买 U 盘转接设备。Google TV Streamer 的 USB-C 为电源 / 数据接口，并非普通 USB-A 插口；旧款**仅投屏的 Chromecast**不适用本安装教程。[Google TV Streamer 官方规格](https://store.google.com/product/google_tv_streamer_specs?hl=en-US)
@@ -215,7 +217,7 @@ Android 8.0+ · 当前版本 **1.0.31** · 可选账号同步 · 真人剧 / 漫
 
 **先核对操作系统。** 仅适用于支持 Android APK 且达到 API 26 的 Fire OS 设备，例如 Fire OS 7（Android 9）和 Fire OS 8；Fire OS 5 / 6 低于最低要求。采用 **Vega OS** 的 Fire TV 不适用 Android APK，不能仅凭“Fire TV”名称判断。[Amazon 官方系统与机型对照](https://developer.amazon.com/docs/fire-tv/fire-os-overview.html)
 
-1. 从本机 Amazon Appstore 获取 **Downloader by AFTVnews**，打开后输入 **`https://hongguotv-egb.pages.dev/`**，下载正式 APK。[Downloader 开发者说明](https://www.aftvnews.com/downloader/)
+1. 从本机 Amazon Appstore 获取 **Downloader by AFTVnews**，打开后输入 **`https://hongguotv-egb.pages.dev/download/latest.apk`**，下载正式 APK。[Downloader 开发者说明](https://www.aftvnews.com/downloader/)
 2. 系统提示时，在 **Settings → My Fire TV → Developer Options → Install unknown apps** 为 Downloader 允许安装，再返回打开 APK。若当前 Fire OS 隐藏开发者选项，可进入 **My Fire TV → About**，在设备名称上连续按 OK 约 7 次，返回上一层查看；路径随固件变化。[Downloader 开发者的设置图文](https://www.aftvnews.com/how-to-find-show-unhide-reveal-developer-options-on-an-amazon-fire-tv-stick-fire-tv-cube-or-fire-tv-smart-tv/)
 3. 安装后在应用列表启动。列表暂未显示时，进入 **Settings → Applications → Manage Installed Applications → 红果 TV → Launch application**。[Amazon 官方侧载应用启动说明](https://www.developer.amazon.com/docs/fire-tv/installing-and-running-your-app.html)
 
@@ -238,7 +240,7 @@ Apple TV（tvOS）、Roku、Vega OS 等非 Android 设备不能直接装本 APK�
 
 **没有 U 盘也能安装：** 电视自带传文件、品牌手机助手、当贝远程安装、Send Files to TV、电视直接下载等方法，见 [无线安装图文教程](WIRELESS-INSTALL.md)。iPhone 用户可优先查看 [浏览器上传方案](WIRELESS-INSTALL.md#iphone)；普通镜像 / 视频投屏不等于传 APK 安装。
 
-1. 打开 **[红果 TV 下载页](https://hongguotv-egb.pages.dev/)**，下载带版本号的正式 APK；也可从 [GitHub Releases](https://github.com/ILikeVideo/HongGuoTV/releases/latest) 下载。
+1. 打开 **[红果 TV 下载页](https://hongguotv-egb.pages.dev/download/latest.apk)**，下载带版本号的正式 APK；也可从 [GitHub Releases](https://github.com/ILikeVideo/HongGuoTV/releases/latest) 下载。
 2. 将 APK 放入 U 盘根目录，插入电视 / 盒子 USB 接口；没有 USB 接口时，可使用设备支持的局域网文件传输工具。
 3. 使用支持 APK 的文件工具打开安装包，在系统安装器确认安装；首次安装按提示允许**当前文件工具**安装未知来源应用。
 4. 打开红果 TV，无需登录或购买会员，进入推荐或找剧即可开始观看。
@@ -271,4 +273,4 @@ App 免费提供，不设置会员购买和付费解锁流程。游客可以直�
 
 此仓库提供红果 TV 正式安装包、版本更新、使用说明和界面截图。
 
-**[立即免费下载红果 TV](https://hongguotv-egb.pages.dev/)** · [查看版本更新](https://github.com/ILikeVideo/HongGuoTV/releases) · [提交使用反馈](https://github.com/ILikeVideo/HongGuoTV/issues)
+**[立即免费下载红果 TV](https://hongguotv-egb.pages.dev/download/latest.apk)** · [查看版本更新](https://github.com/ILikeVideo/HongGuoTV/releases) · [提交使用反馈](https://github.com/ILikeVideo/HongGuoTV/issues)
