@@ -2,6 +2,8 @@
 
 [简体中文](README.md) · [繁體中文](README.zh-TW.md) · [English](README.en.md)
 
+**[项目介绍 · 功能与界面预览](https://hongguotv.curatedlifefinds.com/)**
+
 <img src="screenshots/hongguo-logo.png" width="220" height="64" alt="红果TV 标识">
 
 **免费追短剧，大屏看漫剧。可选登录同步，收藏点赞随手操作，彩色弹幕一起看。**

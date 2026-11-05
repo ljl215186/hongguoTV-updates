@@ -2,6 +2,8 @@
 
 [简体中文](README.md) · [繁體中文](README.zh-TW.md) · [English](README.en.md)
 
+**[Project website · Features and screenshots](https://hongguotv.curatedlifefinds.com/)**
+
 <img src="screenshots/hongguo-logo.png" width="220" height="64" alt="Hongguo TV logo">
 
 **Short dramas and comics on your TV. Choose guest viewing or account sync, like and save shows, and watch with colorful on-screen comments.**
