@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0b1016">
+  <title>安装指南 · 电视、盒子与投影仪 | 红果TV</title>
+  <meta name="description" content="红果TV 全面安装教程：按电视、电视盒子、投影仪查找方法，涵盖 U 盘、自带文件传输、品牌手机助手、Send Files to TV、LocalSend、Downloader、X-plore 与 SMB。">
+  <link rel="canonical" href="https://hongguotv.curatedlifefinds.com/install/">
+  <meta property="og:title" content="红果TV 大屏安装指南"><meta property="og:description" content="从下载到开播，按你的设备和现有工具选择安装方式。"><meta property="og:type" content="website"><meta property="og:url" content="https://hongguotv.curatedlifefinds.com/install/">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="guide.css"><script src="../app.js" defer></script><script src="guide.js" defer></script>
+</head>
+<body class="guide-page">
+  <a class="skip-link" href="#guide-main">跳到教程内容</a>
+  <header class="header"><div class="container nav">
+    <a href="../" class="brand" aria-label="红果TV 首页"><span class="brand-symbol"><img src="../assets/logo.png" width="880" height="256" alt=""></span><span>红果<span class="brand-tv">TV</span></span></a>
+    <button class="nav-toggle" type="button" aria-label="展开导航" aria-controls="nav-links" aria-expanded="false"><span></span><span></span></button>
+    <nav id="nav-links" class="nav-links" aria-label="主导航"><a href="../">项目介绍</a><a href="#methods">选择安装方式</a><a href="#devices">按设备查找</a><a class="nav-github" href="https://hongguotv-egb.pages.dev/download/latest.apk">下载正式版 <span aria-hidden="true">↓</span></a></nav>
+  </div></header>
+  <main id="guide-main">
+    <section class="guide-hero container">
+      <nav class="breadcrumbs" aria-label="面包屑"><a href="../">首页</a><span aria-hidden="true">/</span><span>安装指南</span></nav>
+      <div class="guide-hero-main"><div><p class="eyebrow">从下载到开播</p><h1>把红果TV，<br><span>装进你的大屏。</span></h1><p class="guide-lead">电视、盒子、投影仪，都从这里开始。<br>先确认系统，再选手边最方便的安装方式。</p><div class="hero-actions"><a class="button primary" href="https://hongguotv-egb.pages.dev/download/latest.apk">直接下载正式版 APK <span aria-hidden="true">↓</span></a><a class="button secondary" href="#methods">选择安装方式 <span aria-hidden="true">→</span></a></div><p class="guide-meta">Android 8.0+ / API 26+ · 同包名、同签名可覆盖更新 · 无需 App 会员</p></div>
+      <aside class="guide-quick" aria-label="快速选择安装方法"><p>先看你手边有什么</p><h2>总有一种，<br>适合你的设备。</h2><a href="#usb-install"><span>有 U 盘<small>复制 APK，在大屏打开安装</small></span><span aria-hidden="true">→</span></a><a href="#builtin-transfer"><span>有手机或电脑<small>接收页上传，或使用文件互传</small></span><span aria-hidden="true">→</span></a><a href="#direct-download"><span>只有遥控器<small>设备已有浏览器时直接下载</small></span><span aria-hidden="true">→</span></a></aside></div>
+    </section>
+    <section class="guide-starter container" aria-label="安装流程"><div><span>01</span><strong>确认兼容</strong><p>检查实际 Android 版本与本地安装权限。</p></div><div><span>02</span><strong>下载并传输</strong><p>获取 APK，用 U 盘或已有接收工具传到大屏。</p></div><div><span>03</span><strong>确认安装</strong><p>在大屏打开 APK，按系统提示授权与安装。</p></div></section>
+    <div class="guide-layout container">
+      <aside class="guide-sidebar"><nav aria-label="教程目录"><span class="toc-label">本页目录</span><a href="#before-you-start">安装前确认</a><a href="#methods">选择安装方式</a><a href="#usb-install">U 盘安装</a><a href="#builtin-transfer">电视自带传输</a><a href="#brand-apps">品牌手机助手</a><a href="#dangbei">当贝工具</a><a href="#sfttv">Send Files to TV</a><a href="#direct-download">电视直接下载</a><a href="#localsend">LocalSend</a><a href="#file-manager">X-plore / SMB</a><a href="#iphone">iPhone 用户</a><a href="#devices">按品牌与设备查找</a><a href="#updates">更新与数据保留</a><a href="#troubleshooting">安装失败排查</a><a href="#transfer-troubleshooting">传输失败排查</a></nav><div class="sidebar-download"><span>固定下载地址</span><code id="download-address">https://hongguotv-egb.pages.dev/download/latest.apk</code><button type="button" class="copy-download">复制下载地址</button><p id="copy-status" role="status"></p></div></aside>
+      <div class="guide-content">
+        <section id="before-you-start" class="guide-section"><p class="eyebrow">先确认这两件事</p><h2>能运行 Android APK，<br>并允许本地安装。</h2><div class="guide-callout"><strong>品牌名称、Wi-Fi、USB 接口，都不能单独证明兼容。</strong><p>在设备“设置 → 关于 / 设备信息”里核对实际 Android 版本，再确认能打开 APK。盒子接在 HDMI 上时，应用装在盒子里，使用盒子遥控器操作。</p></div><div class="guide-prose"><p>红果 TV 当前 APK 要求 <strong>Android 8.0 / API 26 或更高版本</strong>，并且设备允许安装本地 APK。先在电视 <strong>设置 → 关于 / 设备信息 / 系统信息</strong> 中查找 Android 版本；找不到时，以该型号说明书或厂商客服答复为准。酷开、聚好看、MagicOS、HarmonyOS、HyperOS 等产品或界面版本号不能直接当作 Android 版本号。</p>
+<table>
+<thead>
+<tr>
+<th>你的电视系统 / 状态</th>
+<th>安装建议</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Android 8.0+，开放本地 APK 安装</td>
+<td>使用下方 U 盘流程与对应品牌教程。</td>
+</tr>
+<tr>
+<td>Android TV / Google TV，符合最低版本</td>
+<td>使用支持 APK 的文件管理器；按提示为安装来源授权。</td>
+</tr>
+<tr>
+<td>Android 低于 8.0</td>
+<td>当前 APK 不支持；先确认厂商是否提供兼容系统升级。</td>
+</tr>
+<tr>
+<td>Android 系统，但固件禁止第三方安装</td>
+<td>先向厂商核实本机允许的安装方法；本教程不保证能解除固件限制。</td>
+</tr>
+<tr>
+<td>荣耀 / 华为智慧屏</td>
+<td>官方部分型号支持第三方安装，但仍需确认 Android APK 兼容能力与本 App 的最低要求，未完成本项目实机验收。</td>
+</tr>
+<tr>
+<td>三星 Tizen、LG webOS、VIDAA、Roku、Titan OS 等非 Android 系统</td>
+<td>当前 APK 不支持直接安装。可将兼容的 Android 盒子连接电视 HDMI，在盒子上安装。</td>
+</tr>
+</tbody>
+</table>
+<p>例如，海信官方支持页分别说明了 Google TV 与 VIDAA 的菜单，不能把一种系统的步骤套用另一种；三星、LG 也使用各自的电视应用平台。参考：<a href="https://www.hisense.com.br/suporte" target="_blank" rel="noopener noreferrer">海信系统区分</a>、<a href="https://www.samsung.com/sg/support/tv-audio-video/how-to-install-and-uninstall-apps-on-your-samsung-tv/" target="_blank" rel="noopener noreferrer">三星 Tizen 应用说明</a>、<a href="https://www.lg.com/us/support/help-library/lg-tv-how-to-install-or-delete-apps--20153192472469" target="_blank" rel="noopener noreferrer">LG webOS 应用说明</a>、<a href="https://www.vidaa.com/wp-content/uploads/2020/12/WebApp_Development_Guide_for_VIDAA.pdf" target="_blank" rel="noopener noreferrer">VIDAA 开发指南</a>、<a href="https://www.titanos.tv/apps" target="_blank" rel="noopener noreferrer">Titan OS 应用平台</a>。</p>
+</div><p class="source-note">下方品牌方法是安装入口与兼容条件索引，不是所有型号的实机认证。菜单随地区、型号和固件变化，以当前设备和厂商说明为准。</p></section>
+        <section id="methods" class="guide-section"><p class="eyebrow">选手边最方便的一种</p><h2>你现在有什么条件？</h2><p class="section-lead">优先使用设备已有的功能。第三方互传需要先有电视接收端，传输完成后仍要在电视确认安装。</p><div class="method-picker"><a href="#usb-install"><span>有 U 盘</span><strong>通用六步图解 →</strong></a><a href="#builtin-transfer"><span>电视有接收页 / 文件快传</span><strong>手机、电脑浏览器上传 →</strong></a><a href="#sfttv"><span>Android 手机 + Android TV</span><strong>Send Files to TV →</strong></a><a href="#iphone"><span>iPhone 或电脑</span><strong>网页上传与跨平台互传 →</strong></a><a href="#brand-apps"><span>已有品牌手机助手</span><strong>查看品牌推送方式 →</strong></a><a href="#direct-download"><span>电视已有浏览器 / Downloader</span><strong>在大屏直接下载 →</strong></a></div><div class="guide-callout compact"><strong>投屏 ≠ 传文件 ≠ 安装。</strong><p>普通屏幕镜像、AirPlay、Miracast 和 DLNA 不会安装 APK。需要工具明确支持“文件 / 安装包 / 远程安装”。</p></div><div class="method-guides"><details class="method-guide" id="usb-install" open><summary><span><strong>U 盘安装</strong><small>电脑下载 → 复制到 U 盘 → 电视打开 APK</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p><a class="guide-image-link" href="../assets/guide-usb.webp" target="_blank" rel="noopener noreferrer"><img src="../assets/guide-usb.webp" alt="红果 TV U 盘安装六步示意图，适用于允许安装 APK 的 Android 8.0 及以上电视和盒子" loading="lazy" decoding="async"><span>操作示意图 · 点击放大</span></a></p>
+<h3>第一步：下载正式 APK</h3>
+<p>在电脑点击 <strong><a href="https://hongguotv-egb.pages.dev/download/latest.apk">直接下载最新正式 APK</a></strong>，保存安装包。该固定地址会自动选择当前正式版。GitHub 用户也可进入 <a href="https://github.com/ILikeVideo/HongGuoTV/releases/latest" target="_blank" rel="noopener noreferrer">Releases</a>，展开 <strong>Assets / 资源</strong>，点击带版本号的 <code>.apk</code> 附件。</p>
+<ul>
+<li>正确示例：<code>hongguotv-x.y.z-release.apk</code>，下载地址会自动选择当前正式版。</li>
+<li><code>Source code (zip)</code>、<code>Source code (tar.gz)</code> 是 GitHub 自动生成的仓库压缩包，不能用于电视安装。</li>
+<li>APK 不需要解压，不需要改后缀，也不需要先安装另一个“红果”应用。</li>
+</ul>
+<h3>第二步：复制到 U 盘</h3>
+<p>将 APK 直接复制到 U 盘根目录，方便电视查找。根据电视说明书选择支持的 U 盘容量与文件系统；例如 TCL 所引官方 USB 教程要求 <strong>FAT32、容量不超过 32 GB</strong>，这不是所有品牌的统一限制。<a href="https://www.tcl.com/ru/ru/support-tv/faq/38300" target="_blank" rel="noopener noreferrer">TCL 官方说明</a></p>
+<p>U 盘已有资料时先备份，不要为了尝试安装直接格式化。</p>
+<h3>第三步：打开电视的文件工具</h3>
+<p>将 U 盘插入电视 USB 接口。看到外接设备提示时选择浏览；没有提示时，从应用列表打开该机型的文件管理器、媒体中心或 APK 安装工具。</p>
+<p>选择 <strong>U 盘 → 全部文件 / 文件 / 安装包</strong>。若只进入“图片、音乐、视频”分类，APK 可能被隐藏。不同品牌的具体入口见下方教程。</p>
+<h3>第四步：选中安装包，按 OK</h3>
+<p>找到 <code>.apk</code> 文件，按遥控器 <strong>OK / 确认</strong>。如果当前媒体播放器不支持 APK，请改用该设备允许的文件管理工具。出现 Android 系统安装器后，确认应用名称并选择 <strong>安装</strong>。</p>
+<h3>第五步：按提示为安装来源授权</h3>
+<p>首次安装可能出现“不允许安装未知应用”。选择提示中的 <strong>设置</strong>，为<strong>刚才打开 APK 的文件管理器</strong>允许安装，再按返回，重新选中 APK 完成安装。各固件的授权名称和位置不同。<a href="https://helpguide.sony.net/tv/hga2/v1/zh-cn2/print.html" target="_blank" rel="noopener noreferrer">索尼官方安全设置说明</a></p>
+<p><a class="guide-image-link" href="../assets/guide-permissions.webp" target="_blank" rel="noopener noreferrer"><img src="../assets/guide-permissions.webp" alt="电视安装权限示意图：首次授权文件工具，后续在红果 TV 设置中检查下载并确认更新" loading="lazy" decoding="async"><span>操作示意图 · 点击放大</span></a></p>
+<p>“允许安装未知应用”与“关闭应用安全校验”是两项功能。仅为本次可信安装来源授权，无需关闭系统校验或进入工厂菜单。<a href="https://support.google.com/androidtv/answer/12188351?hl=zh-Hans" target="_blank" rel="noopener noreferrer">Android TV 官方安全说明</a></p>
+<h3>第六步：打开红果 TV</h3>
+<p>安装完成后选择 <strong>打开</strong>，或从电视 / 盒子的应用列表启动红果 TV。联网后进入推荐或找剧，无需登录、注册或购买 App 会员。方向键移动焦点，OK 确认，返回逐层退出；推荐内容区域可用上下键换剧。</p>
+</div></details>
+<details class="method-guide" id="builtin-transfer"><summary><span><strong>电视自带文件传输 / 网页上传</strong><small>优先使用电视已有的接收入口，手机或电脑浏览器即可</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p>适合：已经有文件接收入口，且明确支持安装包的电视或投影仪。不同厂商可能称为“文件快传”“远程安装”“传文件”“文件投屏”，菜单位置不统一。</p>
+<p><a class="guide-image-link" href="../assets/guide-upload.webp" target="_blank" rel="noopener noreferrer"><img src="../assets/guide-upload.webp" alt="浏览器无线传 APK 示意：电视打开接收页，手机或电脑输入本机地址上传，最后在电视确认安装" loading="lazy" decoding="async"><span>操作示意图 · 点击放大</span></a></p>
+<ol>
+<li>在电视的应用、文件工具或官方助手中，打开 <strong>文件传输 / 接收文件 / 远程安装</strong>，核对支持的文件类型包含 APK 或安装包。</li>
+<li>保持电视接收页面开启，查看它提供的<strong>局域网地址、二维码、配对码或验证码</strong>。</li>
+<li><strong>手机：</strong> 扫描接收页二维码，或在浏览器地址栏输入电视显示的完整地址。<strong>电脑：</strong> 打开浏览器，在地址栏输入同一个地址，保留 <code>http://</code> 或 <code>https://</code>、端口和路径。</li>
+<li>点击接收页中的“上传 / 选择文件 / 添加文件”，选择已下载的红果 TV APK；需要验证码时按电视提示输入。</li>
+<li>等进度完成，回到电视的接收记录或保存目录，选中 APK，按 <strong>OK / 确认</strong>。系统要求时，允许当前文件工具安装应用，再返回确认安装。</li>
+<li>从电视应用列表打开红果 TV。若工具只是把手机画面投到电视，没有出现 APK 文件或系统安装器，请改用其他方法。</li>
+</ol>
+<p>这类流程的厂商实例可参考 <a href="https://club.dangbei.com/52.html" target="_blank" rel="noopener noreferrer">当贝官方文件快传图文教程</a> 和下方品牌助手说明。旧教程中的入口只能用于仍保留该功能的版本；以你当前设备显示为准。</p>
+</div></details>
+<details class="method-guide" id="brand-apps"><summary><span><strong>品牌手机助手与分享</strong><small>小米电视助手、智慧生活、Huawei Share、荣耀分享、极米 App</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><h3>小米 / Redmi / 小米盒子：小米电视助手</h3>
+<ol>
+<li>在 Android 手机安装官方 <strong>小米电视助手</strong>，与电视 / 盒子接入同一局域网。</li>
+<li>使用助手的扫码、附近设备或 IP 连接功能，按电视提示配对。</li>
+<li>在支持此功能的版本中打开 <strong>本地应用 / 本地安装包 / 应用管理</strong>，选择红果 TV APK，发起安装包推送。</li>
+<li>手机文件没被列出时，先把 APK 下载到手机系统可访问的目录，再给助手所需的文件访问权限。</li>
+<li>回到电视按提示确认安装；不需要在手机上先安装红果 TV 本身。</li>
+</ol>
+<p>小米官方说明区分了本地应用安装与屏幕镜像，并注明该手册的助手<strong>仅支持 Android 手机</strong>。不要把“投照片 / 视频”当作本地 APK 推送入口。<a href="https://cdn.cnbj1.fds.api.mi-img.com/ics-resources/articles/6486cea917f0c70645b252ab.html" target="_blank" rel="noopener noreferrer">小米官方助手使用手册</a>、<a href="https://privacy.mi.com/xiaomitvassistant/zh_CN/" target="_blank" rel="noopener noreferrer">官方安装包推送说明</a></p>
+<h3>华为智慧屏：智慧生活 App / Huawei Share</h3>
+<p>先核对智慧屏支持 Android APK 兼容安装；本项目仍未完成这些机型验收。</p>
+<ul>
+<li><strong>智慧生活 App：</strong> 根据厂商说明，在同一 WLAN 连接并绑定智慧屏，打开设备卡片中的 <strong>应用 → 本地应用安装包</strong>，选择 APK 后发送，在智慧屏完成安装确认。该官方方法不支持 iPhone 上的智慧生活，也不能用来给荣耀智慧屏安装应用。</li>
+<li><strong>Huawei Share：</strong> 使用支持的华为手机 / 平板及智慧屏，在手机文件管理中选中 APK，通过 <strong>分享 → Huawei Share</strong> 发送；在电视端确认接收并打开安装包。具体配对、开关和适用机型以官方页面为准。</li>
+</ul>
+<p><a href="https://consumer.huawei.com/cn/support/content/zh-cn01089258/" target="_blank" rel="noopener noreferrer">华为官方第三方应用安装图文说明</a></p>
+<h3>荣耀智慧屏：荣耀分享</h3>
+<ol>
+<li>在支持的荣耀手机 / 平板下载 APK，打开 <strong>荣耀分享</strong>。</li>
+<li>在下载管理中选中 APK，点击 <strong>分享</strong>，选择自己的智慧屏，按提示接收。</li>
+<li>在智慧屏进入 <strong>媒体中心 → 本地 → 荣耀分享</strong>，选中安装包并确认安装。</li>
+</ol>
+<p>荣耀官方明确注明 <strong>智慧屏 X3i 系列不支持此分享操作</strong>。能传输文件也不等于本 App 已适配该机型，先核对兼容要求。<a href="https://www.honor.com/cn/support/content/zh-cn15812201/" target="_blank" rel="noopener noreferrer">荣耀官方图文教程</a></p>
+<h3>极米投影：极米 App</h3>
+<p>在具备相应入口的型号上，手机与投影接入同一 Wi-Fi，打开极米 App 添加设备，按投影显示的验证码配对；进入 <strong>爱机 / 工具 → 传文件 / 应用安装</strong>，选择已保存的 APK，发送后在投影端确认。入口名称和支持的文件类型随型号、App 版本变化。</p>
+<p>极米开发者的 App Store 页面列有文件传输、应用安装能力；当贝针对极米的图文教程给出了 <strong>爱机 → 快捷工具 → 传文件 → 文档 / APK</strong> 示例。该示例原本安装的是当贝自己的软件，这里只参考其文件传输步骤，不要求先装当贝市场，也不保证全部型号接受任意 APK。<a href="https://apps.apple.com/cn/app/id956166148" target="_blank" rel="noopener noreferrer">极米官方 App 介绍</a>、<a href="https://www.dangbei.com/jimi.html" target="_blank" rel="noopener noreferrer">当贝发布的极米传文件图文示例</a></p>
+</div></details>
+<details class="method-guide" id="dangbei"><summary><span><strong>当贝市场 / 电视应用管家</strong><small>电视已经有工具时，使用远程推送或远程安装</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p>适合：电视已经安装这些工具，或能从电视商店安装。普通 Android 电视不需要为传一次文件而更换默认桌面。</p>
+<ol>
+<li>打开电视上的 <strong>当贝市场</strong>，查找当前版本的 <strong>远程推送</strong>；或打开 <strong>电视应用管家 → 远程安装</strong>。</li>
+<li>进入功能后，按电视显示的地址或二维码，在同一局域网的手机 / 电脑浏览器打开上传页面。</li>
+<li>点击选择文件，或在支持拖拽的电脑页面中拖入红果 TV APK，等待上传成功。</li>
+<li>按电视提示发起安装。未自动出现安装器时，回到上传记录或保存目录，手动打开 APK。</li>
+<li>安装完成后关闭远程接收页面，从应用列表启动红果 TV。</li>
+</ol>
+<p>官方产品页说明了当贝市场的远程推送功能；电视应用管家由杭州当贝网络科技有限公司开发，列有远程安装功能。<a href="https://www.dangbei.com/apps/" target="_blank" rel="noopener noreferrer">当贝市场官网</a>、<a href="https://m.dangbei.com/wap-view-795.html" target="_blank" rel="noopener noreferrer">电视应用管家产品说明</a></p>
+<p><strong>已有当贝桌面也可以查找“文件快传”</strong>，按上面的浏览器流程发送；官方历史教程展示了这个入口，但新版本与不同固件未必保留相同菜单。没有入口时换用其他方法，不照搬旧教程中的按键顺序。<a href="https://club.dangbei.com/52.html" target="_blank" rel="noopener noreferrer">当贝官方文件快传图文</a></p>
+</div></details>
+<details class="method-guide" id="sfttv"><summary><span><strong>Send Files to TV</strong><small>Android 手机与电视两端安装，电视 RECEIVE，手机 SEND</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p><a class="guide-image-link" href="../assets/guide-sfttv.webp" target="_blank" rel="noopener noreferrer"><img src="../assets/guide-sfttv.webp" alt="Send Files to TV 操作示意：电视选择 RECEIVE 接收，Android 手机选择 SEND 发送，再在电视打开 APK 安装" loading="lazy" decoding="async"><span>操作示意图 · 点击放大</span></a></p>
+<ol>
+<li>在 <strong>Android 手机和 Android TV 两端</strong>安装同一款 <strong>Send files to TV</strong>，开发者为 <strong>Yablio</strong>，包名 <code>com.yablio.sendfilestotv</code>，避免装成同名的其他工具。</li>
+<li>两端连接同一局域网，按工具和系统提示提供文件访问、附近设备等实际需要的权限。</li>
+<li><strong>电视端：</strong> 打开工具，选择 <strong>RECEIVE / 接收</strong>，保持在接收页面。</li>
+<li><strong>手机端：</strong> 选择 <strong>SEND / 发送</strong>，找到正式 APK，再从设备列表选择自己的电视。</li>
+<li>等待传输完成，在电视接收记录中选择 <strong>打开</strong>。若没有打开或安装选项，用文件管理器到该工具设置的接收目录找到 APK，再按 OK 安装；不假定每台设备都保存在相同目录。</li>
+<li>系统要求时，为<strong>实际打开 APK 的工具</strong>允许安装；返回确认后启动红果 TV。</li>
+</ol>
+<p>此处以 Android 手机到 Android TV 为主；不把它写成 iPhone 通用方案。电脑客户端可用性以开发者当前下载页为准，不需要为此下载来路不明的旧安装包。<a href="https://play.google.com/store/apps/details?id=com.yablio.sendfilestotv&amp;hl=zh" target="_blank" rel="noopener noreferrer">开发者 Google Play 页面</a>、<a href="https://www.sendfilestotv.app/" target="_blank" rel="noopener noreferrer">开发者网站</a></p>
+</div></details>
+<details class="method-guide" id="direct-download"><summary><span><strong>电视浏览器 / Downloader 直接下载</strong><small>在电视输入固定下载地址，直接获取最新正式 APK</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>
+<p>在电视已有的浏览器或 <strong>Downloader by AFTVnews</strong> 输入以下固定地址，直接下载最新正式 APK：</p>
+<p><code>https://hongguotv-egb.pages.dev/download/latest.apk</code></p>
+</li>
+<li>
+<p>等待下载完成，从浏览器 / Downloader 的下载记录打开 <code>.apk</code>。</p>
+</li>
+<li>
+<p>按系统提示允许<strong>实际打开安装包的工具</strong>安装应用，再返回确认安装。</p>
+</li>
+<li>
+<p>安装完成后从设备的应用列表打开红果TV。</p>
+</li>
+</ol>
+<p>地址会自动选择正式版，不会下载 Beta。若浏览器无法保存或打开 APK，请使用 U 盘、网页上传或其他文件传输方法。<a href="https://www.aftvnews.com/downloader/" target="_blank" rel="noopener noreferrer">Downloader 开发者说明</a></p>
+</div></details>
+<details class="method-guide" id="localsend"><summary><span><strong>LocalSend 跨平台互传</strong><small>iPhone、Android、电脑均可；先确认电视端可以操作</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p>LocalSend 支持 Android、iOS、Windows、macOS 和 Linux 的局域网文件传输。<strong>电视遥控器兼容性要先确认</strong>：其项目仓库目前仍有 Android TV 方向键操作问题记录，不作为所有电视的首选。</p>
+<ol>
+<li>从 <a href="https://localsend.org/zh-CN" target="_blank" rel="noopener noreferrer">LocalSend 官网</a> 获取对应平台版本，在发送端和兼容的电视接收端打开工具。</li>
+<li>手机 / 电脑选择 <strong>发送 → 文件</strong>，选择 APK，再选择附近的电视；电视端确认接收。</li>
+<li>iPhone 先在 Safari 下载 APK，使用“存储到文件”，再在 LocalSend 的文件选择器中选中。APK 在 iPhone 上作为文件发送，不是在 iPhone 上安装。</li>
+<li>接收完成后在电视工具设置的保存目录打开 APK，进入系统安装器。</li>
+<li>若遥控器无法完成接收、按钮无法聚焦或应用不能正常运行，改用浏览器上传或品牌助手；不要将 Android 手机可用等同于 Android TV 可用。</li>
+</ol>
+<p><a href="https://localsend.org/zh-CN" target="_blank" rel="noopener noreferrer">LocalSend 官方平台与传输说明</a>、<a href="https://github.com/localsend/localsend/issues/1264" target="_blank" rel="noopener noreferrer">项目仓库中的 Android TV 遥控器问题记录</a></p>
+</div></details>
+<details class="method-guide" id="file-manager"><summary><span><strong>X-plore 网页上传 / SMB 共享</strong><small>适合已经有文件管理器、电脑或 NAS 共享的设备</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><h3>X-plore：电脑浏览器上传</h3>
+<ol>
+<li>在电视已有的 X-plore 中打开 <strong>WiFi file sharing / Wi-Fi 文件共享 → Server / 服务器</strong>，按界面启动共享。</li>
+<li>在同一局域网的电脑浏览器输入 <strong>X-plore 实际显示的完整地址</strong>；开发者示例是 <code>http://192.168.1.36:1111</code>，不要把这个 IP 当成自己电视的地址。</li>
+<li>如已配置密码，按提示输入；打开接收目录，选择 <strong>Upload / 上传</strong>，或拖入 APK。</li>
+<li>等待完成后回到电视，在对应目录打开 APK，按系统提示安装；完成后停止共享。</li>
+</ol>
+<p>开发者将 Wi-Fi 共享、电脑网页访问列为高级付费功能；已具备该功能时可用，不必为安装红果 TV 专门购买。只读模式不能接收上传。<a href="https://www.lonelycatgames.com/apps/xplore/" target="_blank" rel="noopener noreferrer">X-plore 官方功能范围</a>、<a href="https://www.lonelycatgames.com/docs/xplore/wifi-share" target="_blank" rel="noopener noreferrer">共享服务器说明</a>、<a href="https://www.lonelycatgames.com/docs/xplore/wifi-share/in-web" target="_blank" rel="noopener noreferrer">浏览器上传图文说明</a></p>
+<h3>电脑 / NAS 已有 SMB 共享</h3>
+<p>如果家中已经配置了可访问的 SMB 共享，可把 APK 放入专用共享文件夹，在电视支持 SMB 的文件管理器中打开 <strong>局域网 / LAN / SMB</strong>，连接电脑或 NAS，使用自己的访问账号读取 APK，复制到电视可写目录后安装。X-plore 官方列有 LAN / SMB 支持；其他工具以自身说明为准。</p>
+<p>这个方法不要求开放整块硬盘、不要求匿名访问，也不需要把局域网端口映射到公网。没有现成共享时，优先使用前面更直接的方法。<a href="https://www.lonelycatgames.com/apps/xplore/" target="_blank" rel="noopener noreferrer">X-plore 官方 LAN 功能说明</a></p>
+</div></details>
+<details class="method-guide" id="iphone"><summary><span><strong>iPhone 用户怎么选</strong><small>Safari 下载到“文件”，再上传或发送给电视</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ul>
+<li><strong>电视已有网页接收页：</strong> Safari 下载 APK → 存储到“文件” → 扫电视接收二维码或在 Safari 输入接收地址 → 上传时选择“文件”中的 APK → 电视确认安装。</li>
+<li><strong>网页在微信内打开却只能选照片：</strong> 尝试用 Safari 打开电视给出的完整地址；若仍不提供文件选择，用电脑浏览器上传，不把 APK 改成图片后缀。</li>
+<li><strong>有支持的品牌 App：</strong> 按该 App 当前文件导入与分享说明操作；不要把 Android 手机专属的小米助手流程或华为智慧生活安装流程直接套到 iPhone。</li>
+<li><strong>LocalSend：</strong> 两端可运行且电视端能操作时，按上面的备选流程发送。</li>
+</ul>
+</div></details></div></section>
+        <section id="devices" class="guide-section"><p class="eyebrow">找自己的设备</p><h2>按品牌和系统，<br>找到对应入口。</h2><p class="section-lead">涵盖电视、盒子 / 电视棒与投影仪。搜索品牌名或设备名称，展开查看步骤与官方资料。</p><div class="device-tools"><label for="device-search" class="sr-only">搜索品牌或设备</label><input id="device-search" type="search" placeholder="例如：海信、TCL、小米、当贝、极米" autocomplete="off"><button type="button" class="device-clear">清空</button></div><div class="device-filters" role="group" aria-label="设备类型"><button type="button" aria-pressed="true" data-category="all">全部设备</button><button type="button" aria-pressed="false" data-category="tv">电视</button><button type="button" aria-pressed="false" data-category="box">盒子 / 电视棒</button><button type="button" aria-pressed="false" data-category="projector">投影仪</button></div><p id="device-count" class="source-note" role="status">25 组设备指引</p><div class="device-guides"><details class="device-guide" id="xiaomi" data-category="tv" data-search="小米 / Redmi 电视、小米盒子 xiaomi"><summary><span><strong>小米 / Redmi 电视、小米盒子</strong><small>电视 · 按具体系统、型号与固件核对</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p>适用条件：符合 Android 8.0+ 要求，且该型号固件允许安装本地 APK。</p>
+<ol>
+<li>完成前文的 APK 下载和 U 盘复制，将 U 盘插入电视或盒子。</li>
+<li>打开 <strong>电视管家 → U 盘安装包</strong>；也可通过 <strong>高清播放器</strong> 找到安装包。以本机实际提供的入口为准。</li>
+<li>选中红果 TV APK，按 OK；若出现安装来源限制，按系统提示进入设置并允许当前来源。</li>
+<li>返回安装包确认安装，完成后从应用列表打开红果 TV。</li>
+</ol>
+<p>小米官方明确提供 U 盘安装包与高清播放器两种入口。<a href="https://www.mi.com/global/support/article/KA-06405/" target="_blank" rel="noopener noreferrer">小米官方安装说明</a>、<a href="https://www.mi.com/tw/support/faq/details/KA-05404/" target="_blank" rel="noopener noreferrer">无法安装本地软件的官方排查</a>。海外 Android TV / Google TV 版本的菜单可能不同，可使用支持 APK 的文件管理器；没有 USB 接口的电视棒参考 <a href="#methods">无 U 盘方案</a>。</p>
+</div></details>
+<details class="device-guide" id="hisense" data-category="tv" data-search="海信 / Vidda hisense"><summary><span><strong>海信 / Vidda</strong><small>电视 · 按具体系统、型号与固件核对</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p><strong>先区分系统：</strong> 本段只面向符合要求的 Android 机型。VIDAA / Roku 机型不能按 Android APK 流程安装本 App；海信不同地区的产品系统并不相同。<a href="https://www.hisense.com.br/suporte" target="_blank" rel="noopener noreferrer">海信官方系统与应用说明</a></p>
+<ol>
+<li>在系统信息中核对 Android 版本及具体型号。</li>
+<li>插入装有 APK 的 U 盘，从本机提供的 <strong>文件管理 / 媒体中心 / U 盘浏览</strong> 工具查找“全部文件”或“安装包”。这些是查找入口的提示名称，不是全系列统一菜单。</li>
+<li>若能选中 APK 并打开系统安装器，按 <a href="#usb-install">通用授权步骤</a> 安装。</li>
+<li>若 U 盘只能播放媒体、APK 被隐藏或明确提示禁止安装，向该型号售后确认支持的本地安装方式。不要把网上“海信专版”的重命名或工厂菜单教程直接套用本包。</li>
+</ol>
+<p><strong>资料状态：</strong> 已核对官方 Android / VIDAA 系统差异，尚未找到适用于全部国内海信 / Vidda 固件的官方 APK 菜单说明；本段为条件式查找流程，不代表该品牌实测通过。</p>
+</div></details>
+<details class="device-guide" id="tcl" data-category="tv" data-search="TCL / 雷鸟 tcl"><summary><span><strong>TCL / 雷鸟</strong><small>电视 · 按具体系统、型号与固件核对</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p>TCL 官方海外 Google TV 教程分为两种情况，国内 TCL / 雷鸟系统的入口可能不同，须先确认 Android 版本和本地安装能力。</p>
+<ol>
+<li>把 APK 放入 U 盘并插入电视。</li>
+<li><strong>已预装 Safety Guard 的 TCL：</strong> 打开 <strong>Safety Guard → 应用管理 → U 盘</strong>，选中 APK 安装。</li>
+<li><strong>没有 Safety Guard 的 Google TV：</strong> 使用支持 USB 与 APK 的文件管理器，选择 U 盘和安装包；按提示允许该文件管理器安装未知应用，再返回安装。</li>
+<li><strong>国内 TCL / 雷鸟：</strong> 从本机的文件工具查找 U 盘“全部文件 / 安装包”。若当前固件没有 APK 安装入口，按具体型号向售后核实，不能凭 TCL 海外教程认定可安装。</li>
+</ol>
+<p>参考：<a href="https://www.tcl.com/ru/ru/support-tv/faq/38300" target="_blank" rel="noopener noreferrer">TCL 官方 USB 安装图文说明</a>、<a href="https://www.tcl.com/ru/ru/support-tv/faq/36461" target="_blank" rel="noopener noreferrer">TCL 官方 Safety Guard 图文说明</a>（俄文页面，可使用浏览器翻译）。这两篇只用于其注明的平台和预装条件，不表示雷鸟采用相同菜单。</p>
+</div></details>
+<details class="device-guide" id="skyworth" data-category="tv" data-search="创维 / 酷开 skyworth"><summary><span><strong>创维 / 酷开</strong><small>电视 · 按具体系统、型号与固件核对</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p>适用条件：Android 8.0+，固件开放第三方 APK 安装。</p>
+<ol>
+<li>先查看系统信息，确认 Android 版本；酷开 OS 的营销版本号不能代替 Android 版本。</li>
+<li>插入 U 盘，在电视现有文件工具中查找 <strong>外接存储 → 全部文件 / 安装包</strong>。</li>
+<li>能打开 APK 时，按系统提示授权并安装；如果只显示媒体文件，先核对该工具是否支持 APK。</li>
+<li>若本机未提供本地 APK 安装功能，记录型号、固件版本，向官方确认当前政策。网上针对旧固件的暗码、开发容器教程不作为本项目安装要求。</li>
+</ol>
+<p><strong>资料状态：</strong> 未核实到覆盖当前全部酷开固件的官方消费端 APK 安装步骤，本段仅说明查找和核对方法。<a href="https://www.skyworth.com/service.php" target="_blank" rel="noopener noreferrer">创维官方售后服务</a></p>
+</div></details>
+<details class="device-guide" id="changhong" data-category="tv" data-search="长虹 / CHiQ changhong"><summary><span><strong>长虹 / CHiQ</strong><small>电视 · 按具体系统、型号与固件核对</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>核对本机是 Android 8.0+，并支持用户安装 APK。</li>
+<li>插入 U 盘，通过本机文件工具进入外接存储，查找全部文件或安装包。</li>
+<li>选中红果 TV APK，进入安装器后按提示授权并安装；完成后从应用列表启动。</li>
+<li>没有安装入口时，按型号查询官方说明，不使用旧版自动安装脚本。</li>
+</ol>
+<p><strong>资料状态：</strong> 长虹官方有 U 盘安装应用的历史介绍，但并未证明所有新固件开放安装；旧型号的开机自动安装方法不适用于本教程。<a href="https://cn.changhong.com/fw/cjwt/czzd/qt_1030/201607/t20160731_55656.html" target="_blank" rel="noopener noreferrer">长虹官方历史说明</a></p>
+</div></details>
+<details class="device-guide" id="konka" data-category="tv" data-search="康佳 konka"><summary><span><strong>康佳</strong><small>电视 · 按具体系统、型号与固件核对</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>在本机系统信息中确认 Android 8.0+ 与型号。</li>
+<li>通过设备自带的文件浏览工具打开 U 盘，切到“全部文件 / 安装包”查找 APK。</li>
+<li>若允许启动系统安装器，按照提示允许当前文件工具安装，然后确认安装。</li>
+<li>若固件禁止本地安装，向官方服务中心提供型号和固件版本核实，或使用兼容的外接 Android 盒子。</li>
+</ol>
+<p><strong>资料状态：</strong> 尚未核实到康佳全系列通用的官方 APK 安装菜单；以上为满足安装条件时的通用操作，不表示已在康佳实机验收。<a href="https://www.konka.com/" target="_blank" rel="noopener noreferrer">康佳官网与服务入口</a></p>
+</div></details>
+<details class="device-guide" id="haier" data-category="tv" data-search="海尔 / 卡萨帝 haier"><summary><span><strong>海尔 / 卡萨帝</strong><small>电视 · 按具体系统、型号与固件核对</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>按具体型号核对 Android 版本及本地 APK 安装支持，不能只根据“智能电视”判断。</li>
+<li>插入 U 盘，用该机型提供的文件工具浏览全部文件；仅有影音播放功能时，先核对是否另有安装包入口。</li>
+<li>能启动 APK 安装器时，按通用授权步骤安装红果 TV。</li>
+<li>若不支持 APK，停止套用其他品牌的菜单路径，转查该型号说明书或使用外接 Android 盒子。</li>
+</ol>
+<p><strong>资料状态：</strong> 官方产品支持中心提供型号说明书查询；未核实到适用海尔 / 卡萨帝全系列的统一 APK 安装教程。<a href="https://www.haier.com/support/" target="_blank" rel="noopener noreferrer">海尔官方产品支持</a></p>
+</div></details>
+<details class="device-guide" id="sony" data-category="tv" data-search="索尼 BRAVIA Android TV / Google TV sony"><summary><span><strong>索尼 BRAVIA Android TV / Google TV</strong><small>电视 · 按具体系统、型号与固件核对</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>确认本机为 Android TV / Google TV，且满足 Android 8.0+；非 Android 老款 BRAVIA 不适用。</li>
+<li>把 APK 放入 U 盘，用支持 APK 的文件管理器打开。系统自带的照片 / 视频播放器不一定支持安装包。</li>
+<li>如提示没有安装权限，可按系统提示跳转；索尼所引帮助指南列出的路径为 <strong>快速设置 → 设置 → 隐私设置 → 安全和限制 → 未知来源 → 安装未知应用</strong>。</li>
+<li>为刚才的文件管理器允许安装，返回 APK 确认安装。完成后从应用列表打开红果 TV。</li>
+</ol>
+<p>参考：<a href="https://helpguide.sony.net/tv/hga2/v1/zh-cn2/print.html" target="_blank" rel="noopener noreferrer">索尼官方安全设置帮助</a>（页内搜索“未知来源”）、<a href="https://www.sony.com/electronics/support/articles/00147386" target="_blank" rel="noopener noreferrer">索尼官方 Android TV / Google TV 类型说明</a>。旧固件的菜单位置可能不同，以当前安装提示为准。</p>
+</div></details>
+<details class="device-guide" id="philips-sharp" data-category="tv" data-search="飞利浦 / 夏普 Android TV / Google TV philips-sharp"><summary><span><strong>飞利浦 / 夏普 Android TV / Google TV</strong><small>电视 · 按具体系统、型号与固件核对</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p><strong>飞利浦：</strong> 确认是 Android TV / Google TV 型号。将 APK 复制到 U 盘，用支持 APK 的文件管理器打开；按提示允许该来源安装，再返回确认。飞利浦 Android TV 文档提供过 <strong>设置 → 设备偏好设置 → 安全和限制</strong> 下的来源授权方法，具体以机型为准。<a href="https://www.documents.philips.com/assets/20230824/a8796f77fcac422ca7b0b0680079a0ed.pdf" target="_blank" rel="noopener noreferrer">飞利浦官方 Android TV 安装说明 PDF</a></p>
+<p><strong>夏普：</strong> 仅在核对为 Android 8.0+、允许 APK 安装后使用通用 U 盘流程。部分 AQUOS 官方手册包含 <strong>Security &amp; restrictions / 安全和限制 → Unknown sources / 未知来源</strong> 设置；这些是特定型号手册，不能推出全部 AQUOS 支持当前 App。<a href="https://sg.sharp/sites/default/files/uploads/files/8TC60AX1X-8TC70AX1X-8TC80AX1X_sg1_en.pdf" target="_blank" rel="noopener noreferrer">夏普官方型号手册 PDF</a></p>
+<p>飞利浦的 Titan OS / SAPHI，以及夏普采用其他非 Android 系统的机型，不在本 APK 的直接支持范围。请先查型号系统，不要仅凭品牌选择教程。</p>
+</div></details>
+<details class="device-guide" id="smart-screen" data-category="tv" data-search="荣耀智慧屏 / 华为智慧屏：先确认兼容能力 smart-screen"><summary><span><strong>荣耀智慧屏 / 华为智慧屏：先确认兼容能力</strong><small>电视 · 按具体系统、型号与固件核对</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p><strong>这两类设备暂不作为本项目已验证支持机型。</strong> 厂商提供第三方安装入口，只能说明部分设备具备安装能力，不代表一定符合本 App 的 Android API 与播放器要求。</p>
+<p><strong>荣耀智慧屏：</strong> 官方路径为 <strong>媒体中心 → U 盘 → 文件</strong>，选择 APK，按确认，依系统提示继续安装；安装后在全部应用打开。建议 APK 放在 U 盘根目录，避免部分型号对中文目录的兼容问题。<a href="https://www.honor.com/cn/support/content/zh-cn15812201/" target="_blank" rel="noopener noreferrer">荣耀官方应用管理图文教程</a>、<a href="https://www.honor.com/cn/support/content/zh-cn15812308/" target="_blank" rel="noopener noreferrer">荣耀官方 U 盘安装失败排查</a></p>
+<p><strong>华为智慧屏：</strong> 在支持第三方安装的型号上，官方列出的入口为 <strong>全部应用 → 本机 → 媒体中心 → U 盘 → 文件</strong>，或 <strong>全部应用 → 媒体中心 → U 盘 → 文件</strong>，再选择安装包。具体适用型号与限制请先查看官方页面。<a href="https://consumer.huawei.com/cn/support/content/zh-cn01089258/" target="_blank" rel="noopener noreferrer">华为官方安装第三方应用图文教程</a></p>
+<p>如果设备不支持 Android APK、API 不满足要求或安装器拒绝，不通过修改扩展名解决；可改用外接兼容 Android 盒子。HarmonyOS / MagicOS 的版本号不能直接与 Android 8.0 比较。</p>
+</div></details>
+<details class="device-guide" id="box-xiaomi" data-category="box" data-search="小米盒子、Xiaomi TV Box S / Mi Box S box-xiaomi"><summary><span><strong>小米盒子、Xiaomi TV Box S / Mi Box S</strong><small>盒子 / 电视棒 · 先切换到盒子对应的 HDMI 信号源</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p><strong>国内小米盒子，有 U 盘时：</strong></p>
+<ol>
+<li>插入装有 APK 的 U 盘；出现提示时打开 U 盘。</li>
+<li>没有弹窗时，在应用列表找 <strong>电视管家 / 电视管理器 → U 盘安装包</strong>，或进入 <strong>高清播放器</strong> 浏览 U 盘。</li>
+<li>选中红果 TV 的 APK，按 OK，按系统提示授权并安装；菜单名称以型号与固件为准。<a href="https://www.mi.com/tw/support/article/KA-17660/" target="_blank" rel="noopener noreferrer">小米官方电视与盒子安装说明</a>、<a href="https://www.mi.com/service/mitv/player" target="_blank" rel="noopener noreferrer">小米官方高清播放器图文说明</a></li>
+</ol>
+<p><strong>海外 Xiaomi TV Box S / Mi Box S：</strong> 若没有预装 APK 文件工具，先从本机应用商店获取支持 APK 的文件管理器，再打开 U 盘安装；也可在盒子与 Android 手机安装 Send Files to TV，盒子选 <strong>Receive</strong>、手机选 <strong>Send</strong>，发送 APK 后打开安装。详细步骤见 <a href="#sfttv">Send Files to TV 图文教程</a>。国内外固件入口不同，不直接套用菜单；较老小米盒子需先确认系统达到 Android 8.0。<a href="https://www.mi.com/tw/mibox/" target="_blank" rel="noopener noreferrer">小米盒子官方常见问题</a></p>
+</div></details>
+<details class="device-guide" id="box-dangbei" data-category="box" data-search="当贝盒子 box-dangbei"><summary><span><strong>当贝盒子</strong><small>盒子 / 电视棒 · 先切换到盒子对应的 HDMI 信号源</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>下载正式 APK 放入 U 盘，插入当贝盒子。</li>
+<li>在 U 盘提示或文件管理中浏览安装文件，选中 APK，按 OK 确认安装；若有安装权限提示，按提示为当前工具授权。<a href="https://sp.dangbei.com/cn/117.html" target="_blank" rel="noopener noreferrer">当贝官方 U 盘安装说明</a></li>
+<li>无 U 盘且盒子已有<strong>当贝市场 / 电视应用管家</strong>时，可找“远程推送 / 远程安装”，在同网手机或电脑浏览器输入盒子显示的地址，上传 APK，再在盒子确认安装。仅在工具实际提供该入口时使用，见 <a href="#dangbei">当贝远程安装图文教程</a> 与 <a href="https://www.dangbei.com/apps/" target="_blank" rel="noopener noreferrer">当贝官方工具说明</a>。</li>
+</ol>
+<p>当贝不同代际盒子的系统版本不相同，按本机 Android 版本判断；不需要为了安装红果 TV 更换默认桌面。</p>
+</div></details>
+<details class="device-guide" id="box-tencent" data-category="box" data-search="腾讯极光盒子 / 创维盒子 box-tencent"><summary><span><strong>腾讯极光盒子 / 创维盒子</strong><small>盒子 / 电视棒 · 先切换到盒子对应的 HDMI 信号源</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p>以下为<strong>开放 APK 安装机型的通用流程</strong>；尚未找到可覆盖各型号的当前厂商统一安装菜单说明。</p>
+<ol>
+<li>在盒子设置查看型号和 Android 版本，符合要求后，把 APK 放入 U 盘并插入盒子。</li>
+<li>进入本机“文件管理 / 媒体中心 / U 盘”等实际提供的文件入口，切到全部文件或安装包，选择 APK。</li>
+<li>按系统提示为当前文件工具授权并安装；如果已有支持传 APK 的局域网工具，也可使用 <a href="#methods">无线文件传输</a>。</li>
+</ol>
+<p>极光与创维盒子存在不同型号和定制固件；如只能浏览影音文件或提示禁止安装，先向型号售后确认开放安装方式，不把系统升级入口当成 APK 安装入口。</p>
+</div></details>
+<details class="device-guide" id="box-tmall" data-category="box" data-search="天猫魔盒 box-tmall"><summary><span><strong>天猫魔盒</strong><small>盒子 / 电视棒 · 先切换到盒子对应的 HDMI 信号源</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>先在设置中确认<strong>实际 Android 版本</strong>及本地 APK 安装能力；仅显示 YunOS 等系统名称时，不能据此判断满足 Android 8.0。</li>
+<li>对符合条件的机型，把 APK 放到 U 盘根目录，插入魔盒；在本机提供的文件工具中找到 APK，按系统安装器提示安装。</li>
+<li>没有可用 U 盘入口、但已有远程推送工具时，可按 <a href="#builtin-transfer">浏览器上传流程</a> 发送；工具需先能在盒子使用。</li>
+</ol>
+<p>本段为条件式通用流程，未核实天猫魔盒各型号的统一菜单路径。旧款和限制本地安装的固件不列为已支持，不通过修改 APK 后缀尝试绕过限制。</p>
+</div></details>
+<details class="device-guide" id="box-zidoo-himedia" data-category="box" data-search="芝杜 ZIDOO、海美迪播放器 / 盒子 box-zidoo-himedia"><summary><span><strong>芝杜 ZIDOO、海美迪播放器 / 盒子</strong><small>盒子 / 电视棒 · 先切换到盒子对应的 HDMI 信号源</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>先在设备设置核对 Android 8.0+，再把 APK 放入 U 盘插入播放器。</li>
+<li>打开本机文件管理器，选择 U 盘及 APK，调用系统安装器安装；应用安装完成后到全部应用中启动红果 TV。</li>
+<li>芝杜的按型号图文可从 <a href="https://www.zidoo.tv/Support/faq.html?l=zh-cn" target="_blank" rel="noopener noreferrer">芝杜官方支持中心</a> 找“<strong>芝杜安装第三方软件教程</strong>”；海美迪可从 <a href="https://www.himedia.cn/support" target="_blank" rel="noopener noreferrer">官方服务中心</a> 找“<strong>海美迪电视盒怎样安装第三方软件</strong>”。具体界面以对应型号教程为准。</li>
+</ol>
+<p><strong>旧款播放器尤其要先查系统。</strong> 例如海美迪官方列出的 Q5 四代 Android 5.1 / 7.0 均未达到本 App 的最低要求，不能仅因能安装其他 APK 就认定支持红果 TV。<a href="https://www.himedia.cn/newsinfo/2078172.html" target="_blank" rel="noopener noreferrer">海美迪官方旧型号系统说明</a></p>
+</div></details>
+<details class="device-guide" id="box-shield" data-category="box" data-search="NVIDIA SHIELD TV / SHIELD TV Pro box-shield"><summary><span><strong>NVIDIA SHIELD TV / SHIELD TV Pro</strong><small>盒子 / 电视棒 · 先切换到盒子对应的 HDMI 信号源</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>在系统设置确认 Android 版本，使用本机商店中可用的 APK 文件工具，或通过 <a href="#sfttv">Send Files to TV</a> 从 Android 手机发送安装包。</li>
+<li><strong>SHIELD TV Pro 有 USB 接口的机型</strong>可插 U 盘，再从文件工具打开 APK；不要把有无 USB 的不同型号混用教程。</li>
+<li>Pro 还可按官方手册进入 <strong>Settings → Device Preferences → Storage → Transfer files over local network</strong>，使用盒子显示的地址与凭据从电脑复制 APK，再由盒子上的文件工具打开安装。只传文件不会自动安装。<a href="https://www.nvidia.com/en-us/shield/support/shield-tv-pro/" target="_blank" rel="noopener noreferrer">NVIDIA 官方 SHIELD TV Pro 用户指南</a></li>
+</ol>
+</div></details>
+<details class="device-guide" id="box-google-tv" data-category="box" data-search="Google TV Streamer、Chromecast with Google TV、onn. Google TV box-google-tv"><summary><span><strong>Google TV Streamer、Chromecast with Google TV、onn. Google TV</strong><small>盒子 / 电视棒 · 先切换到盒子对应的 HDMI 信号源</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p>以下针对<strong>有独立应用界面、可安装应用的 Android TV / Google TV 设备</strong>，按本机 Android 版本和安装权限判断。</p>
+<ol>
+<li><strong>Android 手机传输：</strong> 两端从各自商店安装 Send Files to TV；电视端选 <strong>Receive</strong>，手机端选 <strong>Send</strong>，选择 APK 和目标设备，接收后打开 APK 安装。<a href="https://play.google.com/store/apps/details?id=com.yablio.sendfilestotv&amp;hl=zh" target="_blank" rel="noopener noreferrer">工具开发者的 Google Play 页面</a></li>
+<li><strong>直接下载：</strong> 本机商店提供 Downloader 时，安装后输入完整地址 <strong><code>https://hongguotv-egb.pages.dev/download/latest.apk</code></strong>，进入页面下载 APK，再按提示允许该工具安装应用。<a href="https://www.aftvnews.com/downloader/" target="_blank" rel="noopener noreferrer">Downloader 开发者说明</a></li>
+<li>安装后从应用列表打开；未出现图标时，可在系统设置的已安装应用中查找并启动。</li>
+</ol>
+<p>无线传输不需要另买 U 盘转接设备。Google TV Streamer 的 USB-C 为电源 / 数据接口，并非普通 USB-A 插口；旧款<strong>仅投屏的 Chromecast</strong>不适用本安装教程。<a href="https://store.google.com/product/google_tv_streamer_specs?hl=en-US" target="_blank" rel="noopener noreferrer">Google TV Streamer 官方规格</a></p>
+</div></details>
+<details class="device-guide" id="box-fire-tv" data-category="box" data-search="Amazon Fire TV Stick / Fire TV Cube box-fire-tv"><summary><span><strong>Amazon Fire TV Stick / Fire TV Cube</strong><small>盒子 / 电视棒 · 先切换到盒子对应的 HDMI 信号源</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p><strong>先核对操作系统。</strong> 仅适用于支持 Android APK 且达到 API 26 的 Fire OS 设备，例如 Fire OS 7（Android 9）和 Fire OS 8；Fire OS 5 / 6 低于最低要求。采用 <strong>Vega OS</strong> 的 Fire TV 不适用 Android APK，不能仅凭“Fire TV”名称判断。<a href="https://developer.amazon.com/docs/fire-tv/fire-os-overview.html" target="_blank" rel="noopener noreferrer">Amazon 官方系统与机型对照</a></p>
+<ol>
+<li>从本机 Amazon Appstore 获取 <strong>Downloader by AFTVnews</strong>，打开后输入 <strong><code>https://hongguotv-egb.pages.dev/download/latest.apk</code></strong>，下载正式 APK。<a href="https://www.aftvnews.com/downloader/" target="_blank" rel="noopener noreferrer">Downloader 开发者说明</a></li>
+<li>系统提示时，在 <strong>Settings → My Fire TV → Developer Options → Install unknown apps</strong> 为 Downloader 允许安装，再返回打开 APK。若当前 Fire OS 隐藏开发者选项，可进入 <strong>My Fire TV → About</strong>，在设备名称上连续按 OK 约 7 次，返回上一层查看；路径随固件变化。<a href="https://www.aftvnews.com/how-to-find-show-unhide-reveal-developer-options-on-an-amazon-fire-tv-stick-fire-tv-cube-or-fire-tv-smart-tv/" target="_blank" rel="noopener noreferrer">Downloader 开发者的设置图文</a></li>
+<li>安装后在应用列表启动。列表暂未显示时，进入 <strong>Settings → Applications → Manage Installed Applications → 红果 TV → Launch application</strong>。<a href="https://www.developer.amazon.com/docs/fire-tv/installing-and-running-your-app.html" target="_blank" rel="noopener noreferrer">Amazon 官方侧载应用启动说明</a></li>
+</ol>
+</div></details>
+<details class="device-guide" id="box-generic" data-category="box" data-search="通用 Android 盒子与运营商定制盒子 box-generic"><summary><span><strong>通用 Android 盒子与运营商定制盒子</strong><small>盒子 / 电视棒 · 先切换到盒子对应的 HDMI 信号源</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p><strong>通用 Android 盒子：</strong> 包括采用 Amlogic / Rockchip 等芯片的产品，芯片名称不代表系统版本。确认 Android 8.0+ 后，U 盘插入盒子 → 文件管理 → 全部文件 / APK → 打开安装包 → 按提示授权安装；无 USB 时使用 <a href="#methods">同网无线安装</a>。</p>
+<p><strong>中国移动魔百和 / 咪咕、中国电信天翼高清、中国联通 IPTV 等：</strong> 仅在当前固件已开放 Android APK 安装、系统版本达标时采用上述步骤。运营商定制盒子可能限制安装；没有入口时先问运营商，不提供刷机、工厂模式或绕过限制教程。</p>
+<p>Apple TV（tvOS）、Roku、Vega OS 等非 Android 设备不能直接装本 APK。安装失败先看 <a href="#troubleshooting">排查表</a>，不要反复下载不匹配系统的安装包。</p>
+<p>盒子教程资料补充核对日期：<strong>2026-10-22</strong>。上述为安装方法与兼容条件，尚未完成逐品牌实机验收。安装后应用内更新方式见 <a href="#updates">设置 → 版本与更新</a>。</p>
+</div></details>
+<details class="device-guide" id="projector-xgimi" data-category="projector" data-search="极米 XGIMI 投影仪 projector-xgimi"><summary><span><strong>极米 XGIMI 投影仪</strong><small>投影仪 · 区分内置 Android 与外接电视棒</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>在投影设置中确认实际 Android 版本及本地 APK 安装能力；国内定制系统与海外 Android TV / Google TV 型号分别核对。</li>
+<li>有 USB 接口时，下载 APK 放到 U 盘根目录，在投影的文件管理器中打开并按系统提示授权安装。</li>
+<li>已具备相应功能的国内型号，可参考 <a href="#brand-apps">极米 App 传文件</a>；已有传输工具的 Android TV 型号可使用 <a href="#sfttv">Send Files to TV</a>。</li>
+</ol>
+<p>若某型号只显示媒体文件，先按该型号官方说明确认支持的安装入口，不直接套用其他型号的改后缀教程。<a href="https://us.xgimi.com/blogs/tips-tutorials/install-software-onto-xgimi-projector" target="_blank" rel="noopener noreferrer">极米官方 USB 安装说明</a>、<a href="https://us.xgimi.com/blogs/projectors-101/how-to-sideload-apps-on-android-projectors" target="_blank" rel="noopener noreferrer">极米官方 Android 投影安装指引</a></p>
+</div></details>
+<details class="device-guide" id="projector-dangbei" data-category="projector" data-search="当贝投影仪 projector-dangbei"><summary><span><strong>当贝投影仪</strong><small>投影仪 · 区分内置 Android 与外接电视棒</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>确认具体型号达到 Android 8.0+，并允许安装本地 APK。</li>
+<li>把红果TV APK 放入 U 盘后插入投影，浏览外接存储并选择安装文件，按提示确认。</li>
+<li>已有当贝市场 / 电视应用管家时，可用 <a href="#dangbei">远程推送与远程安装</a>；不需要为了传文件更换默认桌面。</li>
+</ol>
+<p>厂商支持页列出了可用 U 盘安装的具体型号，请与自己的型号核对。不要把当贝家 App 的应用中心推送等同于支持任意本地 APK。<a href="https://sp.dangbei.com/cn/117.html" target="_blank" rel="noopener noreferrer">当贝官方 U 盘安装说明</a></p>
+</div></details>
+<details class="device-guide" id="projector-jmgo" data-category="projector" data-search="坚果 JMGO 投影仪 projector-jmgo"><summary><span><strong>坚果 JMGO 投影仪</strong><small>投影仪 · 区分内置 Android 与外接电视棒</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p>先核对型号、实际系统版本及允许的安装方式。对 <strong>Android 8.0+ 且开放 APK 安装</strong>的机型，可按以下条件式流程操作：</p>
+<ol>
+<li>把 APK 放入 U 盘并插入投影，从本机文件管理 / 媒体中心查找外接存储的“全部文件 / 安装包”。</li>
+<li>能打开系统安装器时，允许当前文件工具安装并确认；若仅能播放影音，先咨询该型号官方支持。</li>
+<li>已有明确支持 APK 的接收入口或互传工具时，也可按 <a href="#builtin-transfer">网页上传</a> 或 <a href="#sfttv">第三方互传</a> 发送。</li>
+</ol>
+<p>这是符合条件时的通用查找流程，尚未核实覆盖所有坚果固件的统一菜单，也不代表全部机型已实测。<a href="https://www.jmgo.com/service/index.aspx" target="_blank" rel="noopener noreferrer">坚果官方服务中心</a></p>
+</div></details>
+<details class="device-guide" id="projector-formovie" data-category="projector" data-search="峰米 Formovie / 米家投影仪 projector-formovie"><summary><span><strong>峰米 Formovie / 米家投影仪</strong><small>投影仪 · 区分内置 Android 与外接电视棒</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>先确认具体型号运行 Android 8.0+，具备本地 APK 安装能力；不要仅依据峰米、米家或某个界面版本判断。</li>
+<li>有 USB 且本机文件工具支持 APK 时，按 <a href="#usb-install">U 盘安装</a> 操作。</li>
+<li>没有 USB 但有文件接收页时，用 <a href="#builtin-transfer">浏览器上传</a>；已有 Android TV 互传工具时，用 <a href="#sfttv">Send Files to TV</a>。</li>
+<li>未提供 APK 安装入口或系统不兼容时，可在 HDMI 外接兼容 Android 盒子，在盒子内安装。</li>
+</ol>
+<p>本条为条件式通用流程，未核实全系列统一菜单。小米电视助手是否支持投影型号也应逐型号确认，不能直接套用电视的配对步骤。</p>
+</div></details>
+<details class="device-guide" id="projector-benq" data-category="projector" data-search="明基 BenQ 等带 Android TV 的投影 projector-benq"><summary><span><strong>明基 BenQ 等带 Android TV 的投影</strong><small>投影仪 · 区分内置 Android 与外接电视棒</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><ol>
+<li>核对投影内置系统或随附电视棒的实际 Android 版本达到 8.0+。部分投影只是显示设备，应用实际运行在外接电视棒中。</li>
+<li>厂商允许 USB 安装且安装器可用时，使用 <a href="#usb-install">U 盘流程</a>；否则用兼容电视棒支持的文件传输方法。</li>
+<li>安装完成后检查遥控器、声音和播放；厂商允许安装第三方 APK 不代表已保证本 App 兼容。</li>
+</ol>
+<p><a href="https://www.benq.com/en-us/support/faq/0324006.html" target="_blank" rel="noopener noreferrer">BenQ 官方第三方应用安装说明</a></p>
+</div></details>
+<details class="device-guide" id="projector-generic" data-category="projector" data-search="其他 Android 投影仪 / HDMI 外接盒子 projector-generic"><summary><span><strong>其他 Android 投影仪 / HDMI 外接盒子</strong><small>投影仪 · 区分内置 Android 与外接电视棒</small></span><span class="guide-chevron" aria-hidden="true">+</span></summary><div class="guide-prose"><p>**具备 Android 8.0+ 和 APK 安装能力：**优先使用本机已有的 U 盘文件管理或网页接收入口；已有工具时再选择第三方互传。</p>
+<p>**只提供 HDMI、普通投屏、影音 USB 播放，或没有 Android 应用安装能力：**投影本身不能直接安装该 APK。可将兼容的 Android 盒子 / 电视棒接入 HDMI，切到相应信号源，再用盒子遥控器在盒子内安装。</p>
+<p>不把带 Wi-Fi、能投屏或有 USB 接口当作一定能安装 Android 应用的依据。</p>
+</div></details></div><div id="device-empty" class="guide-callout" hidden><strong>没有找到匹配的设备。</strong><p>试试只输入品牌名，或选择“全部设备”。型号不在列表中时，先按系统兼容条件和通用流程核对。</p></div></section>
+        <section id="updates" class="guide-section"><p class="eyebrow">装好之后</p><h2>更新应用，保留追剧记录。</h2><div class="guide-prose"><p>在红果 TV 打开 <strong>设置 → 版本与更新</strong>，检查并下载新版，由 Android 系统确认安装。首次应用内更新可能需要为 <strong>红果 TV</strong> 允许安装未知应用；这与首次 U 盘安装时为<strong>文件管理器</strong>授权不同。</p>
+<p>当前包名为 <code>com.hongguo.tv</code>，首次下载直接安装即可。后续同包名、同正式签名的新版可覆盖升级并保留记录；换设备前可在 <strong>设置 → 手机备份与恢复</strong> 导出 JSON，再在另一台设备导入并核对。</p>
+</div><div class="guide-callout compact"><strong>旧版本升级前，不要直接卸载。</strong><p>同包名、同正式签名时可覆盖更新。签名或包名不同的旧测试版，先导出备份并确认恢复方法；卸载可能清除本机账号与记录。</p></div></section>
+        <section id="troubleshooting" class="guide-section"><p class="eyebrow">卡在哪一步？</p><h2>安装失败，逐项排查。</h2><div class="guide-prose"><table>
+<thead>
+<tr>
+<th>遇到的情况</th>
+<th>先这样处理</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>U 盘里看不到 APK</td>
+<td>切到全部文件 / 安装包，核对文件没有变成 <code>.apk.zip</code>；使用支持 APK 的文件工具。</td>
+</tr>
+<tr>
+<td>电视无法识别 U 盘</td>
+<td>先检查接口，再按型号手册核对文件系统和容量；更换 U 盘前保留已有资料。</td>
+</tr>
+<tr>
+<td>提示不允许安装未知应用</td>
+<td>为当前打开 APK 的文件工具授权，再返回重试；后续应用内更新则按提示授权红果 TV。</td>
+</tr>
+<tr>
+<td>提示安装包解析失败</td>
+<td>核对 Android 8.0+，重新下载完整的 <code>.apk</code>；不要用 Source code 压缩包或网页文件。</td>
+</tr>
+<tr>
+<td>提示“应用未安装”或签名冲突</td>
+<td>核对是否已有同包名的其他签名测试版，先备份记录；不要直接卸载正在使用的版本。</td>
+</tr>
+<tr>
+<td>提示包名或签名不一致</td>
+<td>核对是否为当前正式包 <code>com.hongguo.tv</code>；首次下载直接安装，后续覆盖升级须保持包名和签名一致。</td>
+</tr>
+<tr>
+<td>只显示商店应用，禁止本地安装</td>
+<td>向厂商确认该固件支持的方法；本教程不要求关闭应用校验、输入工厂暗码或恢复出厂设置。</td>
+</tr>
+<tr>
+<td>安装成功但找不到图标</td>
+<td>从系统应用列表或设置的已安装应用中查找“红果 TV”，核对刚才安装是否成功。</td>
+</tr>
+<tr>
+<td>无法播放或出现缓冲</td>
+<td>先检查网络、换剧、降低清晰度；安装成功不代表每个内容源都稳定。</td>
+</tr>
+</tbody>
+</table>
+<p>仍有问题，请到 <a href="https://github.com/ILikeVideo/HongGuoTV/issues" target="_blank" rel="noopener noreferrer">公开仓库 Issues</a> 提交 <strong>品牌 / 型号、Android 版本、App 版本、安装方式和错误截图</strong>。不要上传口令、完整私人备份或个人观看记录。</p>
+</div></section>
+        <section id="transfer-troubleshooting" class="guide-section"><h2>搜不到设备、传完找不到文件？</h2><div class="guide-prose"><table>
+<thead>
+<tr>
+<th>现象</th>
+<th>排查方法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>搜不到电视</td>
+<td>先确认接收工具已打开；核对手机 / 电脑与电视可在同一局域网通信，避免访客 Wi-Fi、AP 隔离或跨网 VPN；按工具支持方式重新扫描或输入电视实际 IP。</td>
+</tr>
+<tr>
+<td>地址打不开</td>
+<td>核对是浏览器地址栏，完整保留协议、端口和路径；接收页要保持打开，电视重连网络后 IP 可能变化。</td>
+</tr>
+<tr>
+<td>只能投照片、视频或镜像</td>
+<td>该入口未必支持 APK；改用明确标注文件传输、安装包、应用安装或远程安装的工具。</td>
+</tr>
+<tr>
+<td>文件选择器找不到 APK</td>
+<td>先把文件完整下载到系统可访问目录；iPhone 存到“文件”；不要只转发下载链接或使用图片分类选择器。</td>
+</tr>
+<tr>
+<td>发送成功但没出现 App</td>
+<td>传输不等于安装，回到电视接收记录 / 保存目录，打开 <code>.apk</code> 进入系统安装器。</td>
+</tr>
+<tr>
+<td>收到文件却无法打开</td>
+<td>确认不是 <code>.zip</code>、网页、快捷方式或仅下载了链接；重新下载正式 APK，使用支持安装包的文件管理器。</td>
+</tr>
+<tr>
+<td>提示没有安装权限</td>
+<td>为实际打开 APK 的接收工具 / 文件管理器授权，返回继续；各品牌设置位置不同。</td>
+</tr>
+<tr>
+<td>工具要求安装，但电视什么工具都没有</td>
+<td>先使用本机浏览器、品牌助手或电视应用商店建立第一种安装途径；无法建立时用 U 盘或兼容 Android 盒子。</td>
+</tr>
+<tr>
+<td>文件传输成功但安装器仍拒绝</td>
+<td>再核对 Android 版本、包名签名与厂商安装限制；换传输工具不能解决系统不兼容。</td>
+</tr>
+</tbody>
+</table>
+<p>只在自己的可信局域网接收自己发出的文件；接收页可被同网设备访问时，按工具能力设置验证码 / 密码，传完关闭。无需进入工厂菜单或开启 ADB 来完成上面这些普通安装流程。</p>
+</div></section>
+        <section class="guide-section guide-support"><h2>还是遇到问题？</h2><p>请准备设备完整型号、实际 Android 版本、App 版本，以及出错画面或操作步骤。</p><div class="hero-actions"><a class="button secondary" href="https://github.com/ILikeVideo/HongGuoTV/issues" target="_blank" rel="noopener noreferrer">提交使用反馈 ↗</a><a class="text-link" href="https://t.me/HongGuoTVJiaoLiu" target="_blank" rel="noopener noreferrer">Telegram 交流群 ↗</a></div></section>
+        <section class="guide-sources"><h2>资料来源与说明</h2><p>本页结合项目 README、INSTALL 与 WIRELESS-INSTALL 整理。原文安装资料核对于 2026-10-20 / 2026-10-22；本次网页整理与投影资料补充日期为 2026-11-05。厂商和工具开发者资料已在对应步骤旁列出；示意图不是各品牌系统实拍。</p><div class="inline-links"><a href="https://github.com/ILikeVideo/HongGuoTV/blob/main/README.md" target="_blank" rel="noopener noreferrer">README 原文 ↗</a><a href="https://github.com/ILikeVideo/HongGuoTV/blob/main/INSTALL.md" target="_blank" rel="noopener noreferrer">安装文档 ↗</a><a href="https://github.com/ILikeVideo/HongGuoTV/blob/main/WIRELESS-INSTALL.md" target="_blank" rel="noopener noreferrer">无线传输文档 ↗</a></div></section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer container"><div class="footer-top"><a class="brand" href="../">红果<span class="brand-tv">TV</span></a><nav aria-label="页脚导航"><a href="../">项目介绍</a><a href="https://hongguotv-egb.pages.dev/download/latest.apk">下载 APK</a><a href="https://github.com/ILikeVideo/HongGuoTV/blob/main/DISCLAIMER.md" target="_blank" rel="noopener noreferrer">免责声明</a></nav></div><p>独立开发的非官方客户端。第三方作品与标识归相应权利人所有，请在合法授权范围内使用。</p></footer>
+</body></html>

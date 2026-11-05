@@ -41,14 +41,14 @@ tabs.forEach((tab, index) => {
   });
 });
 
-document.querySelector('.screen-expand').addEventListener('click', () => {
+document.querySelector('.screen-expand')?.addEventListener('click', () => {
   dialogImage.src = screenImage.src;
   dialogImage.alt = screenImage.alt;
   if (typeof dialog.showModal === 'function') dialog.showModal();
   else window.open(screenImage.src, '_blank', 'noopener');
 });
-document.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
-dialog.addEventListener('click', event => {
+document.querySelector('.dialog-close')?.addEventListener('click', () => dialog.close());
+dialog?.addEventListener('click', event => {
   if (event.target !== dialog) return;
   const rect = dialog.getBoundingClientRect();
   if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
