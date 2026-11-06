@@ -1,4 +1,10 @@
 /* 介绍站保持纯静态：不读取账号信息，不依赖第三方接口即可浏览与下载。 */
+// 静态 HTML 不绑定域名；浏览器中的页面标识跟随当前 CDN 入口。
+const pageUrl = new URL(location.pathname, location.origin).href;
+document.querySelector('link[rel="canonical"]')?.setAttribute('href', pageUrl);
+document.querySelector('meta[property="og:url"]')?.setAttribute('content', pageUrl);
+const preview = document.querySelector('meta[property="og:image"]');
+if (preview) preview.setAttribute('content', new URL(preview.getAttribute('content'), location.href).href);
 const screens = {
   discovery: { image: 'assets/discovery.webp', alt: '找剧页的热门榜单和海报网格', title: '想找什么，都有入口。', description: '多个热门榜单，搭配真人剧 / 漫剧分类筛选，浏览与搜索各得其所。' },
   playback: { image: 'assets/playback.webp', alt: '正剧播放界面的进度条与遥控器操作菜单', title: '把常用操作，放在手边。', description: '进度、选集、清晰度与倍速，在视频上直接操作。返回键逐层收起面板。' },
