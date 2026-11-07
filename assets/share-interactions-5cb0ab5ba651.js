@@ -25,8 +25,9 @@
     let frame,qr;try{[frame,qr]=await Promise.all([load(document.querySelector('.hero img').src),load(qrUrl)]);}finally{URL.revokeObjectURL(qrUrl);}
     const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');if(!ctx)throw Error('canvas-unavailable');
     const width=900,pad=44,inside=width-pad*2;
-    ctx.font='700 46px system-ui,-apple-system,"Noto Sans SC",sans-serif';const titleLines=lines(ctx,o.title,inside,3);
-    ctx.font='400 26px system-ui,-apple-system,"Noto Sans SC",sans-serif';const descriptionLines=lines(ctx,o.description,inside,4);
+    // 封面降级图已由电视端合成剧名和简介，不再把同一份资料画第二遍。
+    ctx.font='700 46px system-ui,-apple-system,"Noto Sans SC",sans-serif';const titleLines=o.embeddedDetails?[]:lines(ctx,o.title,inside,3);
+    ctx.font='400 26px system-ui,-apple-system,"Noto Sans SC",sans-serif';const descriptionLines=o.embeddedDetails?[]:lines(ctx,o.description,inside,4);
     const pictureHeight=Math.min(880,Math.max(280,Math.round(inside*frame.naturalHeight/frame.naturalWidth)));
     const titleY=248+pictureHeight,descriptionY=titleY+titleLines.length*62+76;
     const footerY=descriptionY+descriptionLines.length*40+42;
@@ -113,7 +114,7 @@
   document.querySelectorAll('[data-share]').forEach(b=>b.onclick=async()=>{
     const kind=b.dataset.share;
     if(kind==='copy'||kind==='title'||kind==='text'){await copy(kind==='title'?title:kind==='text'?shareText:url);return;}
-    if(kind==='poster'){window.HongguoPoster.open({mode:kind,title,episode,description,url,shareText,copy});return;}
+    if(kind==='poster'){window.HongguoPoster.open({mode:kind,title,episode,description,url,shareText,copy,embeddedDetails:main.dataset.imageKind==='cover'});return;}
     const destinations={
       telegram:'https://t.me/share/url?'+new URLSearchParams({url,text:title}),
       qq:'https://connect.qq.com/widget/shareqq/index.html?'+new URLSearchParams({url,title,summary:document.querySelector('meta[name="description"]').content,pics:document.querySelector('.hero img').src}),
